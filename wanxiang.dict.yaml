@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: wanxiang
+version: "2024.09.30"
+sort: by_weight  #字典初始排序，可選original或by_weight
+use_preset_vocabulary: false
+import_tables:
+  - cn_dicts/8105       # 小字表
+  - cn_dicts/large      # 大字表
+  - cn_dicts/corrections # 容错音和错字，配合超级注释实现错词提醒
+  - cn_dicts/base      # 基础词库
+  - cn_dicts/ext       # 扩展词库
+  - cn_dicts/others    # 一些杂项
+  - cn_dicts/tencent   # 腾讯词向量
+...
+
+

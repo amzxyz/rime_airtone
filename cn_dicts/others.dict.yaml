@@ -1,0 +1,419 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+---
+name: others
+version: "2024-05-21"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
+空落落	kōng luò luò	16
+空落落	kōng luò luò	16
+空落落的	kōng luò luò de	87
+空落落的	kōng luò luò de	87
+# 「阿房宫」的注音争议比较大
+阿房宫	ē páng gōng	180
+阿房宫	ē páng gōng	180
+阿房宫	ē páng gōng	180
+阿房宫	ē páng gōng	180
+阿房宫赋	ē páng gōng fù	44
+阿房宫赋	ē páng gōng fù	44
+阿房宫赋	ē páng gōng fù	44
+阿房宫赋	ē páng gōng fù	44
+# 「伯伯」方言
+伯伯	bó bó	541
+伯伯	bó bó	541
+# 「斜」的古音
+远上寒山石径斜	yuǎn shàng hán shān shí jìng xié	38
+远上寒山石径斜	yuǎn shàng hán shān shí jìng xié	38
+# 「骑」目前统读 qi
+坐骑	zuò qí	1019
+坐骑	zuò qí	1019
+铁骑	tiě qí	383
+铁骑	tiě qí	383
+一骑绝尘	yī qí jué chén	684
+一骑绝尘	yī qí jué chén	684
+一骑当千	yī qí dāng qiān	53
+一骑当千	yī qí dāng qiān	53
+一骑红尘妃子笑	yī qí hóng chén fēi zǐ xiào	37
+一骑红尘妃子笑	yī qí hóng chén fēi zǐ xiào	37
+走单骑	zǒu dān qí	0
+走单骑	zǒu dān qí	0
+千里走单骑	qiān lǐ zǒu dān qí	100
+千里走单骑	qiān lǐ zǒu dān qí	100
+# 「街」的粤语和东北话读音及常见的两种写法
+仆街	pū jiē	37
+仆街	pū jiē	37
+扑街	pū jiē	1315
+扑街	pū jiē	1315
+扑街仔	pū jiē zǎi	20
+扑街仔	pū jiē zǎi	20
+仆街仔	pū jiē zǎi	0
+仆街仔	pū jiē zǎi	0
+街溜子	jiē liū zǐ	70
+街溜子	jiē liū zǐ	70
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
+郭明錤	guō míng jī	38
+郭明錤	guō míng jī	38
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
+李昌镐	lǐ chāng gǎo	242
+曹世镐	cáo shì gǎo	0
+张镐哲	zhāng gǎo zhé	0
+姜成镐	jiāng chéng gǎo	0
+姜镐童	jiāng gǎo tóng	0
+张镐濂	zhāng gǎo lián	0
+李敏镐	lǐ mǐn gǎo	28
+李陈镐	lǐ chén gǎo	2
+赵亮镐	zhào liàng gǎo	0
+郑俊镐	zhèng jùn gǎo	1
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个火	liǎng gè huǒ	0
+两个土	liǎng gè tǔ	0
+两个一	liǎng gè yī	0
+两个二	liǎng gè èr	0
+两个山	liǎng gè shān	0
+两个口	liǎng gè kǒu	0
+两个田	liǎng gè tián	0
+两个九	liǎng gè jiǔ	0
+两个人	liǎng gè rén	18484
+两个飞	liǎng gè fēi	0
+两个戈	liǎng gè gē	0
+两个厶	liǎng gè sī	0
+两个厶	liǎng gè sī	0
+两个又	liǎng gè yòu	0
+两个香	liǎng gè xiāng	0
+两个面	liǎng gè miàn	0
+两个兀	liǎng gè wù	0
+两个女	liǎng gè nǚ	0
+两个𡥦	liǎng gè nǐ	0
+两个臣	liǎng gè chén	0
+两个巾	liǎng gè jīn	0
+两个左	liǎng gè zuǒ	0
+两个母	liǎng gè mǔ	0
+两个来	liǎng gè lái	0
+两个凡	liǎng gè fán	0
+两个夕	liǎng gè xī	0
+两个彐	liǎng gè jì	0
+两个𢎘	liǎng gè hàn	0
+两个魚	liǎng gè yú	0
+两个明	liǎng gè míng	0
+两个朿	liǎng gè cì	0
+两个乂	liǎng gè yì	0
+两个曰	liǎng gè yuē	0
+两个尸	liǎng gè shī	0
+两个户	liǎng gè hù	0
+两个大	liǎng gè dà	541
+两个八	liǎng gè bā	12
+两个而	liǎng gè ér	0
+两个羊	liǎng gè yáng	0
+两个吉	liǎng gè jí	0
+两个马	liǎng gè mǎ	0
+两个卅	liǎng gè sà	0
+两个巛	liǎng gè chuān	0
+两个止	liǎng gè zhǐ	0
+两个比	liǎng gè bǐ	0
+两个言	liǎng gè yán	0
+两个申	liǎng gè shēn	0
+两个牛	liǎng gè niú	0
+两个余	liǎng gè yú	0
+两个束	liǎng gè shù	0
+两个罒	liǎng gè wǎng	0
+两个㐅	liǎng gè wǔ	0
+两个金	liǎng gè jīn	0
+两个木	liǎng gè mù	0
+两个水	liǎng gè shuǐ	0
+两个風	liǎng gè fēng	0
+两个石	liǎng gè shí	0
+两个日	liǎng gè rì	0
+两个月	liǎng gè yuè	7342
+两个目	liǎng gè mù	0
+两个白	liǎng gè bái	0
+两个百	liǎng gè bǎi	0
+两个耳	liǎng gè ěr	0
+两个屮	liǎng gè chè	0
+两个屮	liǎng gè chè	0
+两个廿	liǎng gè niàn	0
+两个卄	liǎng gè niàn	0
+两个虫	liǎng gè chóng	0
+两个虎	liǎng gè hǔ	0
+两个龍	liǎng gè lóng	0
+两个馬	liǎng gè mǎ	0
+两个犬	liǎng gè quǎn	0
+两个入	liǎng gè rù	0
+两个习	liǎng gè xí	0
+两个卪	liǎng gè jié	0
+两个㔾	liǎng gè xiān	0
+两个几	liǎng gè jǐ	0
+两个乙	liǎng gè yǐ	0
+两个夫	liǎng gè fū	0
+两个禾	liǎng gè hé	0
+两个干	liǎng gè gàn	0
+两个井	liǎng gè jǐng	0
+两个斤	liǎng gè jīn	0
+两个片	liǎng gè piàn	0
+两个牙	liǎng gè yá	0
+两个炎	liǎng gè yán	0
+两个弓	liǎng gè gōng	0
+两个永	liǎng gè yǒng	0
+两个亦	liǎng gè yì	0
+两个手	liǎng gè shǒu	0
+两个毛	liǎng gè máo	0
+两个王	liǎng gè wáng	0
+两个男	liǎng gè nán	0
+两个支	liǎng gè zhī	0
+两个隻	liǎng gè zhī	0
+两个古	liǎng gè gǔ	0
+两个舌	liǎng gè shé	0
+两个启	liǎng gè qǐ	0
+两个來	liǎng gè lái	0
+两个桼	liǎng gè qī	0
+两个旡	liǎng gè jì	0
+两个歹	liǎng gè dǎi	0
+两个匕	liǎng gè bǐ	0
+两个幺	liǎng gè yāo	0
+两个玄	liǎng gè xuán	0
+两个心	liǎng gè xīn	0
+两个力	liǎng gè lì	0
+两个欠	liǎng gè qiàn	0
+两个子	liǎng gè zi	0
+两个予	liǎng gè yǔ	0
+两个享	liǎng gè xiǎng	0
+两个立	liǎng gè lì	0
+两个音	liǎng gè yīn	0
+两个竟	liǎng gè jìng	0
+两个竞	liǎng gè jìng	0
+两个兄	liǎng gè xiōng	0
+两个見	liǎng gè jiàn	0
+两个貝	liǎng gè bèi	0
+两个辛	liǎng gè xīn	0
+两个瓜	liǎng gè guā	0
+两个呆	liǎng gè dāi	0
+两个果	liǎng gè guǒ	0
+两个鸟	liǎng gè niǎo	0
+两个巢	liǎng gè cháo	0
+两个禺	liǎng gè yú	0
+两个巿	liǎng gè fú	0
+两个句	liǎng gè jù	0
+两个奇	liǎng gè qí	0
+两个真	liǎng gè zhēn	0
+两个尹	liǎng gè yǐn	0
+两个昔	liǎng gè xī	0
+两个易	liǎng gè yì	0
+两个先	liǎng gè xiān	0
+两个老	liǎng gè lǎo	0
+两个示	liǎng gè shì	0
+两个至	liǎng gè zhì	0
+两个生	liǎng gè shēng	0
+两个車	liǎng gè chē	0
+两个車	liǎng gè chē	0
+两个足	liǎng gè zú	0
+两个區	liǎng gè qū	0
+两个隹	liǎng gè zhuī	0
+两个牟	liǎng gè móu	0
+两个豕	liǎng gè shǐ	0
+两个𠂢	liǎng gè pài	0
+两个畐	liǎng gè fú	0
+两个㣇	liǎng gè yì	0
+两个邑	liǎng gè yì	0
+两个堯	liǎng gè yáo	0
+两个秉	liǎng gè bǐng	0
+两个倉	liǎng gè cāng	0
+两个東	liǎng gè dōng	0
+两个善	liǎng gè shàn	0
+两个僉	liǎng gè qiān	0
+两个齒	liǎng gè chǐ	0
+两个喜	liǎng gè xǐ	0
+两个走	liǎng gè zǒu	0
+两个昌	liǎng gè chāng	0
+两个串	liǎng gè chuàn	0
+两个米	liǎng gè mǐ	0
+两个隶	liǎng gè lì	0
+两个不	liǎng gè bù	0
+两个龙	liǎng gè lóng	0
+两个乞	liǎng gè qǐ	0
+两个夋	liǎng gè qūn	0
+两个天	liǎng gè tiān	0
+# 三叠字
+三个生	sān gè shēng	0
+三个秦	sān gè qín	0
+三个若	sān gè ruò	0
+三个雲	sān gè yún	0
+三个人	sān gè rén	4260
+三个刀	sān gè dāo	0
+三个十	sān gè shí	1
+三个力	sān gè lì	0
+三个原	sān gè yuán	0
+三个厶	sān gè sī	0
+三个厶	sān gè sī	0
+三个又	sān gè yòu	0
+三个口	sān gè kǒu	5
+三个七	sān gè qī	0
+三个吉	sān gè jí	0
+三个土	sān gè tǔ	0
+三个士	sān gè shì	0
+三个女	sān gè nǚ	0
+三个子	sān gè zi	0
+三个小	sān gè xiǎo	0
+三个心	sān gè xīn	0
+三个手	sān gè shǒu	0
+三个日	sān gè rì	0
+三个木	sān gè mù	0
+三个止	sān gè zhǐ	0
+三个毛	sān gè máo	0
+三个水	sān gè shuǐ	0
+三个泉	sān gè quán	0
+三个火	sān gè huǒ	0
+三个牛	sān gè niú	0
+三个犬	sān gè quǎn	0
+三个田	sān gè tián	0
+三个白	sān gè bái	0
+三个目	sān gè mù	0
+三个直	sān gè zhí	0
+三个石	sān gè shí	0
+三个羊	sān gè yáng	0
+三个耳	sān gè ěr	0
+三个舌	sān gè shé	0
+三个屮	sān gè chè	0
+三个屮	sān gè chè	0
+三个虫	sān gè chóng	0
+三个言	sān gè yán	0
+三个贝	sān gè bèi	0
+三个車	sān gè chē	0
+三个金	sān gè jīn	0
+三个隹	sān gè zhuī	0
+三个雷	sān gè léi	0
+三个風	sān gè fēng	0
+三个飛	sān gè fēi	0
+三个香	sān gè xiāng	0
+三个马	sān gè mǎ	0
+三个魚	sān gè yú	0
+三个鹿	sān gè lù	0
+三个龍	sān gè lóng	0
+三个个	sān gè gè	0
+三个丶	sān gè zhǔ	0
+三个丶	sān gè zhǔ	0
+三个了	sān gè le	0
+三个介	sān gè jiè	0
+三个企	sān gè qǐ	0
+三个舍	sān gè shě	0
+三个圥	sān gè lù	0
+三个光	sān gè guāng	0
+三个兔	sān gè tù	0
+三个全	sān gè quán	0
+三个𠙽	sān gè	0
+三个𠧪	sān gè tiáo	0
+三个𠧪	sān gè tiáo	0
+三个㔾	sān gè xiān	0
+三个厡	sān gè yuán	0
+三个可	sān gè kě	0
+三个因	sān gè yīn	0
+三个夏	sān gè xià	0
+三个大	sān gè dà	0
+三个天	sān gè tiān	0
+三个太	sān gè tài	0
+三个𦉼	sān gè	0
+三个宝	sān gè bǎo	0
+三个宜	sān gè yí	0
+三个客	sān gè kè	0
+三个寒	sān gè hán	0
+三个少	sān gè shǎo	0
+三个山	sān gè shān	0
+三个市	sān gè shì	3
+三个文	sān gè wén	0
+三个斗	sān gè dòu	0
+三个朿	sān gè cì	0
+三个束	sān gè shù	0
+三个林	sān gè lín	0
+三个果	sān gè guǒ	0
+三个欠	sān gè qiàn	0
+三个𣥚	sān gè	0
+三个爪	sān gè zhǎo	0
+三个妥	sān gè tuǒ	0
+三个用	sān gè yòng	0
+三个甲	sān gè jiǎ	0
+三个百	sān gè bǎi	0
+三个盖	sān gè gài	0
+三个県	sān gè xiàn	0
+三个空	sān gè kōng	0
+三个亇	sān gè ma	0
+三个竹	sān gè zhú	0
+三个罒	sān gè wǎng	0
+三个羗	sān gè qiāng	0
+三个老	sān gè lǎo	0
+三个月	sān gè yuè	9003
+三个至	sān gè zhì	0
+三个興	sān gè xìng	0
+三个足	sān gè zú	0
+三个㖖	sān gè niè	0
+三个門	sān gè mén	0
+三个面	sān gè miàn	0
+三个頁	sān gè yè	0
+三个鳥	sān gè niǎo	0
+三个男	sān gè nán	0
+三个立	sān gè lì	0
+三个九	sān gè jiǔ	3
+三个也	sān gè yě	0
+三个加	sān gè jiā	0
+三个動	sān gè dòng	0
+三个千	sān gè qiān	0
+三个方	sān gè fāng	0
+三个朔	sān gè shuò	0
+三个玉	sān gè yù	0
+三个申	sān gè shēn	0
+三个𡿨	sān gè quǎn	0
+三个去	sān gè qù	0
+三个弓	sān gè gōng	0
+三个䖝	sān gè chóng	0
+三个丿	sān gè piě	0
+三个户	sān gè hù	0
+三个瓜	sān gè guā	0
+三个鸟	sān gè niǎo	0
+三个米	sān gè mǐ	0
+# 四叠字
+四个乂	sì gè yì	0
+四个人	sì gè rén	2268
+四个厶	sì gè sī	0
+四个厶	sì gè sī	0
+四个又	sì gè yòu	0
+四个匕	sì gè bǐ	0
+四个工	sì gè gōng	0
+四个口	sì gè kǒu	0
+四个天	sì gè tiān	0
+四个小	sì gè xiǎo	0
+四个屮	sì gè chè	0
+四个屮	sì gè chè	0
+四个火	sì gè huǒ	0
+四个牛	sì gè niú	0
+四个魚	sì gè yú	0
+四个月	sì gè yuè	1860
+四个日	sì gè rì	0
+四个林	sì gè lín	0
+四个水	sì gè shuǐ	0
+四个石	sì gè shí	0
+四个田	sì gè tián	0
+四个甲	sì gè jiǎ	0
+四个且	sì gè qiě	0
+四个囚	sì gè qiú	0
+四个困	sì gè kùn	0
+四个竹	sì gè zhú	0
+四个老	sì gè lǎo	0
+四个朿	sì gè cì	0
+四个先	sì gè xiān	0
+四个金	sì gè jīn	0
+四个泉	sì gè quán	0
+四个言	sì gè yán	0
+四个門	sì gè mén	0
+四个果	sì gè guǒ	0
+四个春	sì gè chūn	0
+四个車	sì gè chē	0
+四个風	sì gè fēng	0
+四个雷	sì gè léi	0
+四个雲	sì gè yún	0
+四个興	sì gè xìng	0
+四个龍	sì gè lóng	0
+四个土	sì gè tǔ	0
