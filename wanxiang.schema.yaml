@@ -93,6 +93,7 @@ engine:
     - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜，放在pro_comment_format前面，进一步被超级注释处理以获得拼音编码的提示
+    - lua_filter@*pro_preedit_format                #输入码显示全拼并带上音调
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
@@ -100,7 +101,7 @@ engine:
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码放在简繁转换之后
 #    - lua_filter@*cn_en_spacer                     #启用时中英混输为中英混输词条（cn_en.dict.yaml）自动增加空格，示例：`VIP中P` → `VIP 中 P`              
 #    - lua_filter@*en_spacer                        #启用时中文状态下输入英文单词后面自动追加空格
-    - lua_filter@*pro_preedit_format                #输入码显示全拼并带上音调
+
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
 
     - uniquifier                                    # 去重
