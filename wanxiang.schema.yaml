@@ -322,10 +322,10 @@ key_binder:
     - { when: has_menu, accept: semicolon, send: 2 }
 #使用Control+e进入翻译模式
     - { when: has_menu, accept: "Control+e", toggle: chinese_english}
-#使用快捷键Control+q开启和关闭辅助码显示
-    - { when: has_menu, accept: "Control+q", toggle: pinyinhint }
+#使用快捷键Control+a开启和关闭辅助码显示
+    - { when: has_menu, accept: "Control+a", toggle: pinyinhint }
 #通过快捷键使得输入码显示音调
-    - { when: has_menu, accept: "Control+w", toggle: tone_display }
+    - { when: has_menu, accept: "Control+s", toggle: tone_display }
 # 使用 tab 在不同音节之间跳转
     - { when: has_menu, accept: "Tab", send: "Control+Right" }
     - { when: composing, accept: "Tab", send: "Control+Right" }
