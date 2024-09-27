@@ -21,6 +21,7 @@ schema:
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
+    - stroke         #笔画反查
 
 
 # 开关
