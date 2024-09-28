@@ -1,6 +1,6 @@
 **飞声词库**   来自frost发音，并取包含音调之意，故而得名！
 
-**配套方案** 万象系列方案基础版 [辅助码版本](https://github.com/amzxyz/rime_wanxiang_pinyin)
+**配套方案** 万象系列方案基础版 [辅助码版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/wanxiang_wanxiang)
 
  
 
