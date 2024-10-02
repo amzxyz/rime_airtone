@@ -1,10 +1,10 @@
-**飞声词库**   来自frost发音，并取包含音调之意，故而得名！
+#### 落霞词库
 
 **配套方案** 万象系列方案基础版 [辅助码版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/tongwen_wanxiang)
 
  
 
-飞声词库基于[白霜词库](https://github.com/gaboolic/rime-frost)frost的基础上修改而来，继承了白霜优秀的词频，我为所有的字词添加了音调，为大字集添加更多字支持，那么为词库加上音调会发生什么样子的化学反应呢？
+落霞词库基于[白霜词库](https://github.com/gaboolic/rime-frost)frost的基础上修改而来，继承了白霜优秀的词频，我为所有的字词添加了音调，为大字集添加更多字支持，那么为词库加上音调会发生什么样子的化学反应呢？
 
  
 
@@ -93,6 +93,8 @@ set_shuru_schema:
  **自动上屏：**  例如：三位、四位简码唯一时，自动上屏如`jjkw岌岌可危` `zmhu怎么回事` 。默认未开启，方案文件中`speller:`字段下取消注释这两句开启 `#   auto_select: true  #  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}`
 
  **错音错字提示：**  例如：输入`gei yu给予`，获得`jǐ yǔ`提示
+ 
+ **快符：** 例如 ```'q``` 通过单引号键引导的26字母快速符号自动上屏，双击''重复上一个符号
 
  **快捷键相关：** 任意长度候选词的注释提示能力，默认开启1个字的长度
 
