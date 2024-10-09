@@ -54,15 +54,31 @@
 ```
 ##### 元音跟随数字音调：
 ```
-    - xform a1 ā
-    - xform a2 á
-    - xform a3 ǎ
-    - xform a4 à
-    - xform e1 ē
-    - xform e2 é
-    - xform e3 ě
-    - xform e4 è
-    - xform o1 ō
+    - xform/ā/a1 
+    - xform/á/a2 
+    - xform/ǎ/a3 
+    - xform/à/a4 
+    - xform/ō/o1
+    - xform/ó/o2
+    - xform/ǒ/o3
+    - xform/ò/o4
+    - xform/ē/e1 
+    - xform/é/e2 
+    - xform/ě/e3 
+    - xform/è/e4 
+    - xform/ī/i1 
+    - xform/í/i2 
+    - xform/ǐ/i3 
+    - xform/ì/i4 
+    - xform/ū/u1 
+    - xform/ú/u2 
+    - xform/ǔ/u3 
+    - xform/ù/u4 
+    - xform/ǖ/v1 
+    - xform/ǘ/v2 
+    - xform/ǚ/v3 
+    - xform/ǜ/v4 
+    - xform/ü/v
 ```
 
 2. 简化配置和加载项：
