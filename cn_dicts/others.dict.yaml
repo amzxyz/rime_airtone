@@ -69,7 +69,182 @@ sort: by_weight
 李陈镐	lǐ chén gǎo	2
 赵亮镐	zhào liàng gǎo	0
 郑俊镐	zhèng jùn gǎo	1
-
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
+馄饨	hún tún	898
+馄饨	hún tún	898
+主角	zhǔ jué	24115
+主角	zhǔ jué	24115
+角色	jué sè	20102
+角色	jué sè	20102
+比萨	bǐ sà	197
+比萨	bǐ sà	197
+比萨饼	bǐ sà bǐng	23
+比萨饼	bǐ sà bǐng	23
+吃比萨	chī bǐ sà	5
+吃比萨	chī bǐ sà	5
+说服	shuō fú	5642
+说服	shuō fú	5642
+道行	dào héng	270
+道行	dào héng	270
+模样	mú yàng	5185
+模样	mú yàng	5185
+有模有样	yǒu mú yǒu yàng	279
+有模有样	yǒu mú yǒu yàng	279
+一模一样	yī mú yī yàng	5083
+一模一样	yī mú yī yàng	5083
+装模作样	zhuāng mú zuò yàng	485
+装模作样	zhuāng mú zuò yàng	485
+人模狗样	rén mú gǒu yàng	146
+人模狗样	rén mú gǒu yàng	146
+模板	mú bǎn	14674
+模板	mú bǎn	14674
+阿弥陀佛	ē mí tuó fó	371
+阿弥陀佛	ē mí tuó fó	371
+南无阿弥陀佛	nā mó ē mí tuó fó	42
+南无阿弥陀佛	nā mó ē mí tuó fó	42
+南无阿弥陀佛	nā mó ē mí tuó fó	42
+南无阿弥陀佛	nā mó ē mí tuó fó	42
+给予	jǐ yǔ	11349
+给予	jǐ yǔ	11349
+槟榔	bīng láng	633
+槟榔	bīng láng	633
+张柏芝	zhāng bǎi zhī	748
+张柏芝	zhāng bǎi zhī	748
+藤蔓	téng wàn	320
+藤蔓	téng wàn	320
+弄堂	lòng táng	126
+弄堂	lòng táng	126
+心宽体胖	xīn kuān tǐ pán	39
+心宽体胖	xīn kuān tǐ pán	39
+埋怨	mán yuàn	1138
+埋怨	mán yuàn	1138
+虚与委蛇	xū yǔ wēi yí	93
+虚与委蛇	xū yǔ wēi yí	93
+木讷	mù nè	471
+木讷	mù nè	471
+独乐乐	dú lè lè	13
+独乐乐	dú lè lè	13
+众乐乐	zhòng lè lè	20
+众乐乐	zhòng lè lè	20
+荨麻	xún má	71
+荨麻	xún má	71
+荨麻疹	xún má zhěn	198
+荨麻疹	xún má zhěn	198
+模具	mú jù	1935
+模具	mú jù	1935
+草薙	cǎo tì	88
+草薙	cǎo tì	88
+草薙京	cǎo tì jīng	144
+草薙京	cǎo tì jīng	144
+草薙剑	cǎo tì jiàn	17
+草薙剑	cǎo tì jiàn	17
+贾平凹	jiǎ píng āo	247
+贾平凹	jiǎ píng āo	247
+雪佛兰	xuě fú lán	365
+雪佛兰	xuě fú lán	365
+强劲	qiáng jìng	1505
+强劲	qiáng jìng	1505
+胴体	dòng tǐ	80
+胴体	dòng tǐ	80
+力能扛鼎	lì néng gāng dǐng	26
+力能扛鼎	lì néng gāng dǐng	26
+鸭绿江	yā lù jiāng	152
+鸭绿江	yā lù jiāng	152
+大腹便便	dà fù pián pián	147
+大腹便便	dà fù pián pián	147
+卡脖子	qiǎ bó zi	308
+卡脖子	qiǎ bó zi	308
+吱声	zhī shēng	217
+吱声	zhī shēng	217
+掺和	chān huo	438
+掺和	chān huo	438
+掺和	chān huo	438
+掺和	chān huo	438
+称职	chèn zhí	90
+称职	chèn zhí	90
+螺蛳粉	luó sī fěn	645
+螺蛳粉	luó sī fěn	645
+调换	diào huàn	616
+调换	diào huàn	616
+太行山	tài háng shān	390
+太行山	tài háng shān	390
+歇斯底里	xiē sī dǐ lǐ	883
+歇斯底里	xiē sī dǐ lǐ	883
+暖和	nuǎn huo	743
+暖和	nuǎn huo	743
+模棱两可	mó léng liǎng kě	848
+模棱两可	mó léng liǎng kě	848
+鄱阳湖	pó yáng hú	1336
+鄱阳湖	pó yáng hú	1336
+脖颈	bó gěng	483
+脖颈	bó gěng	483
+脖颈儿	bó gěng ér	1
+脖颈儿	bó gěng ér	1
+结扎	jié zā	126
+结扎	jié zā	126
+海参崴	hǎi shēn wēi	304
+海参崴	hǎi shēn wēi	304
+厚朴	hòu pò	52
+厚朴	hòu pò	52
+大宛马	dà wǎn mǎ	9
+大宛马	dà wǎn mǎ	9
+龇牙	zī yá	62
+龇牙	zī yá	62
+龇着牙	zī zhe yá	14
+龇着牙	zī zhe yá	14
+龇牙咧嘴	zī yá liě zuǐ	166
+龇牙咧嘴	zī yá liě zuǐ	166
+头皮屑	tóu pí xiè	525
+头皮屑	tóu pí xiè	525
+六安	lù ān	110
+六安	lù ān	110
+六安县	lù ān xiàn	3
+六安县	lù ān xiàn	3
+六安市	lù ān shì	23
+六安市	lù ān shì	23
+六合区	liù hé qū	3
+六合区	liù hé qū	3
+安徽六安	ān huī lù ān	16
+安徽六安	ān huī lù ān	16
+安徽六安市	ān huī lù ān shì	3
+安徽六安市	ān huī lù ān shì	3
+安徽省六安市	ān huī shěng lù ān shì	8
+安徽省六安市	ān huī shěng lù ān shì	8
+南京六合	nán jīng liù hé	5
+南京六合	nán jīng liù hé	5
+南京六合区	nán jīng liù hé qū	1
+南京六合区	nán jīng liù hé qū	1
+南京市六合区	nán jīng shì liù hé qū	2
+南京市六合区	nán jīng shì liù hé qū	2
+偌大	ruò dà	680
+偌大	ruò dà	680
+饮鸩止渴	yǐn zhèn zhǐ kě	336
+饮鸩止渴	yǐn zhèn zhǐ kě	336
+饮鸩解渴	yǐn zhèn jiě kě	0
+饮鸩解渴	yǐn zhèn jiě kě	0
+### 错字
+曾经	céng jīng	39759
+曾今	céng jīn	105
+按捺	àn nà	127
+按耐	àn nài	8
+按捺不住	àn nà bù zhù	345
+按耐不住	àn nài bú zhù	0
+别价	bié jià	1
+别介	bié jiè	31
+甭价	béng jià	0
+甭介	béng jiè	0
+血脉贲张	xuè mài bēn zhāng	49
+血脉偾张	xuè mài fèn zhāng	0
+血脉喷张	xuè mài pēn zhāng	0
+契诃夫	qì hē fū	437
+契科夫	qì kē fū	0
+凑合	còu hé	1809
+凑活	còu huó	246
+巨惠	jù huì	0
+钜惠	jù huì	0
+摩羯座	mó jié zuò	107
+魔蝎座	mó xiē zuò	0
 ##### 叠字
 # 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
 # 二叠字
