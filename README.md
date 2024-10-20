@@ -1,6 +1,6 @@
 ### 飞声词库
 
-**配套方案** 万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/tongwen_wanxiang)
+**配套方案** 声飞万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/tongwen_wanxiang)
 
  
 
