@@ -1,10 +1,10 @@
-### 飞声词库
+### 万象词库
 
-**配套方案** 声飞万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/tongwen_wanxiang)
+**配套方案** 万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  [同文定制版本](https://github.com/amzxyz/tongwen_wanxiang)
 
  
 
-飞声词库基于[白霜词库](https://github.com/gaboolic/rime-frost)frost的基础上修改而来，继承了白霜优秀的词频，我为所有的字词添加了声调，为大字集添加更多字支持，那么为词库加上声调会发生什么样子的化学反应呢？
+基于[万象词库](https://github.com/amzxyz/RIME-LMDG)以及语言模型的基础上修改而来，是一个集成了带调词库、预测模型的基础全拼双拼方案
 
  
 
