@@ -451,23 +451,17 @@ punctuator:
   symbols:
     __include: symbols:/symbols         # 从 symbols.yaml 导入配置
 
-__include: octagram/enable_for_sentence   #启用语言模型
-#启用语言模型
+__include: octagram   #启用语言模型
 #语言模型
 octagram:
-  disable:
-    __patch:
-      grammar: {}
-  enable_for_sentence:
-    __patch:
-      grammar:
-        language: zh-hans-t-huayu-v7-bgw
-        collocation_max_length: 4
-        collocation_min_length: 2
-        non_collocation_penalty: -20
-        collocation_penalty: -8
-        weak_collocation_penalty: -15
-        rear_penalty: -18
+  __patch:
+    grammar:
+      language: amz-v2n3m1-zh-hans  
+      collocation_max_length: 5
+      collocation_min_length: 2
+    translator/contextual_suggestions: true
+    translator/max_homophones: 7
+    translator/max_homographs: 7
 
 algebra_pinyin: 
   __append:
