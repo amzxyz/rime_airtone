@@ -4,13 +4,15 @@
 #############万象拼音无辅助码版本###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
   __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
+set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian
+  __include: 18jian
 pro_comment_format:           # 超级注释模块
   candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
   corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
 ########################以下是方案配置######################################################
 schema:
-  schema_id: wanxiang
-  name: 万象拼音
+  schema_id: tongwen
+  name: 同文拼音
   version: "2024-08-05"
   author:
     - amzxyz
@@ -43,9 +45,7 @@ switches:
     reset: 0
   - name: tone_display
     states: [ 调, 音 ]
-    reset: 0
-  - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
-    states: [词, 单]
+    reset: 1
 
 
 # 输入引擎
@@ -100,8 +100,7 @@ engine:
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码放在简繁转换之后
-#    - lua_filter@*cn_en_spacer                     #启用时中英混输为中英混输词条（cn_en.dict.yaml）自动增加空格，示例：`VIP中P` → `VIP 中 P`              
-#    - lua_filter@*en_spacer                        #启用时中文状态下输入英文单词后面自动追加空格
+#    - lua_filter@*tongwen_9_14_18_key_preedit       #直接将输入码显示调整为全拼显示,需要配合词库使用，移植需注意。配合手机同文输入法9
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
 
     - uniquifier                                    # 去重
@@ -178,7 +177,8 @@ reduce_english_filter:
 # 主翻译器，拼音
 translator:
   dictionary: wanxiang          # 挂载词库
-#  prism: zrm          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  prism: tongwen          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  dynamic_model: true  # 启用动态语言模型
   segment_length: 4  # 设置分词长度
   prioritize_quality: true  # 启用优先质量选项
   max_phrase_length: 7  # 设置短语的最大长度，如果主要输入单词或短短的短语，可以设置为4。句子更长一些
@@ -344,26 +344,7 @@ speller:
   algebra:
     __patch:
       - set_shuru_schema     #拼音转双拼码在文件头部配置
-# 首字母简拼，开启后会导致 3 个字母时 kj'x 变成 k'jx 的问题
-    # - abbrev/^(.).+$/$1/
-# 模糊音 可选择性开启
-    # - derive/^z([a-z])/v$1/
-    # - derive/^c([a-z])/i$1/
-    # - derive/^s([a-z])/u$1/
-    # - derive/^v([a-z])/z$1/
-    # - derive/^i([a-z])/c$1/
-    # - derive/^u([a-z])/s$1/          
-# 飞键 可选择性开启
-    # - derive/^([yh])j/$1q/
-    # - derive/^qx/qw/
-    # - derive/^jn/jv/
-    # - derive/^mn/mv/
-    # - derive/^jm/jz/
-    # - derive/^([y])h/$1g/
-    # - derive/^([rgv])f/$1m/
-    # - derive/^([rgv])c/$1n/
-
-
+      - set_gongjian_mohu    #共键输入或者模糊音选择性开启
 
 # 标点符号
 # punctuator 下面有三个子项：
@@ -661,3 +642,52 @@ algebra_ziguang:
     - xform/ao$/Ⓠ/ # ao should be placed after iao
     - xform/an$/Ⓡ/ # an should be placed after uan/ian
     - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
+
+
+#以下配合同文输入法等使用，将共键字母后者转换为前者
+9jian:
+  __append:
+    - xform/b/a/
+    - xform/c/a/
+    - xform/e/d/
+    - xform/f/d/
+    - xform/h/g/
+    - xform/i/g/
+    - xform/k/j/
+    - xform/l/j/
+    - xform/n/m/
+    - xform/o/m/
+    - xform/q/p/
+    - xform/r/p/
+    - xform/s/p/
+    - xform/u/t/
+    - xform/v/t/
+    - xform/x/w/
+    - xform/y/w/
+    - xform/z/w/
+
+14jian:
+  __append:
+    - xform/w/q/
+    - xform/r/e/
+    - xform/y/t/
+    - xform/i/u/
+    - xform/p/o/
+    - xform/s/a/
+    - xform/f/d/
+    - xform/h/g/
+    - xform/k/j/
+    - xform/x/z/
+    - xform/v/c/
+    - xform/n/b/
+
+18jian:          
+  __append:
+    - xform/e/w/
+    - xform/t/r/
+    - xform/o/i/
+    - xform/d/s/
+    - xform/g/f/
+    - xform/k/j/
+    - xform/c/x/
+    - xform/n/b/
