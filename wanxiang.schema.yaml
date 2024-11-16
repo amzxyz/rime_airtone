@@ -1,7 +1,7 @@
 # Rime schema
 # encoding: utf-8
 # 方案说明
-#############万象拼音无辅助码版本###########################
+########################万象拼音无辅助码版本，支持同文8、14、18键 ###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
   __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
 set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian, 26键  PC请选26键
