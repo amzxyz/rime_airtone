@@ -8,9 +8,7 @@ config_version: '2024-09-30'
 
 # 方案列表
 schema_list:
-  - schema: wanxiang   #电脑用这个
-  - schema: tongwen    #配合同文手机输入法可以9、14、18键输入
-
+  - schema: wanxiang 
 
 # 菜单
 menu:
