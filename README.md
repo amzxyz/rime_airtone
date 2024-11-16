@@ -1,6 +1,6 @@
 ### 万象拼音 （内建同文拼音9、14、18键布局方案）
 
-**配套方案** 万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  
+**配套方案** 本方案为万象系列方案基础版 [辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pinyin)  
 
  
 
@@ -14,8 +14,8 @@
 2. 对方案拼写运算进行结构化处理，将共键字母中例如WE中的e转换为w，多个字母同样处理；
 3. 配合定制键盘即可打字。
    
-<img src="https://storage.deepin.org/thread/202409250204031318_26.jpg" width="400">       <img src="https://storage.deepin.org/thread/202409250204112540_18.jpg" width="400">   
-<img src="https://storage.deepin.org/thread/202409250204092790_14.jpg" width="400">       <img src="https://storage.deepin.org/thread/202409250204064425_9.jpg" width="400"> 
+<img src="https://storage.deepin.org/thread/202409250204031318_26.jpg" width="400">             <img src="https://storage.deepin.org/thread/202409250204112540_18.jpg" width="400">   
+<img src="https://storage.deepin.org/thread/202409250204092790_14.jpg" width="400">             <img src="https://storage.deepin.org/thread/202409250204064425_9.jpg" width="400"> 
 
 1. 词库可移植性：
 
