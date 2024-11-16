@@ -4,8 +4,8 @@
 #############万象拼音无辅助码版本###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
   __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
-set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian
-  __include: 18jian
+set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian, 26键  PC请选26键
+  __include: 26jian
 pro_comment_format:           # 超级注释模块
   candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
   corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
@@ -177,7 +177,7 @@ reduce_english_filter:
 # 主翻译器，拼音
 translator:
   dictionary: wanxiang          # 挂载词库
-  prism: tongwen          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  #prism: wanxiang          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   dynamic_model: true  # 启用动态语言模型
   segment_length: 4  # 设置分词长度
   prioritize_quality: true  # 启用优先质量选项
@@ -691,3 +691,5 @@ algebra_ziguang:
     - xform/k/j/
     - xform/c/x/
     - xform/n/b/
+26jian:          
+  __append: []
