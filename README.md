@@ -115,13 +115,13 @@
 
  首先
 
-打开万象项目主方案 ```wanxiang.schema.yaml```，编辑表头，选择方案
+打开万象项目主方案 ```wanxiang.schema.yaml```，编辑表头，选择方案, 需要注意在手机上使用同文输入法时，长按回车键进入功能菜单选中与方案匹配的布局
 
 ```
 #############万象拼音无辅助码版本###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
   __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
-set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian
+set_gongjian_mohu:    #可选的值有：26jian, 18jian, 14jian, 9jian  注意PC选26键
   __include: 18jian
 pro_comment_format:           # 超级注释模块
   candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
