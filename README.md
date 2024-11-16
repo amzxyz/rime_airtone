@@ -6,9 +6,18 @@
 
 基于[万象词库](https://github.com/amzxyz/RIME-LMDG)以及语言模型的基础上修改而来，是一个集成了带调词库、预测模型的基础全拼双拼方案
 
- 
+**同文说明**：由于同文不具备拼音筛选器，因此想要体验特别好的小于26键的输入是不现实的，而依托万象拼音强大的词频与语言模型一定程度上弥补了这种不足。为了实现9键、14键、18键这几种常用的涉及到共键的输入方式，我们需要整体对方案层面进行运算处理，对同文主题进行深度定制，共同配合之下才能实现共键输入，下面我从几个方面阐述和说明。
 
-1. 可移植性：
+**原理：** 
+
+1. 对同文输入法皮肤进行定制，实现共键单发，例如WE共键，按下只发送w；
+2. 对方案拼写运算进行结构化处理，将共键字母中例如WE中的e转换为w，多个字母同样处理；
+3. 配合定制键盘即可打字。
+   
+<img src="https://storage.deepin.org/thread/202409250204031318_26.jpg" width="400">       <img src="https://storage.deepin.org/thread/202409250204112540_18.jpg" width="400">   
+<img src="https://storage.deepin.org/thread/202409250204092790_14.jpg" width="400">       <img src="https://storage.deepin.org/thread/202409250204064425_9.jpg" width="400"> 
+
+1. 词库可移植性：
 
 在原来的方案中拼写运算的首位添加一句话，就可以像以前一样使用了，无任何不同，所以可以轻松迁移
 ##### 无声调：
@@ -79,7 +88,7 @@
     - xform/ǘ/v2 
     - xform/ǚ/v3 
     - xform/ǜ/v4 
-    - xform/ü/v
+    - xform/ü/v1
 ```
 
 2. 简化配置和加载项：
@@ -110,12 +119,12 @@
 
 ```
 #############万象拼音无辅助码版本###########################
-schema_name: 
-  name: 万象拼音  #可以改成与你所选方案一致的描述，不改也行
-set_shuru_schema:     #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: algebra_zrm  #可选解码规则有  algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
-pro_comment_format:      # 超级注释模块
-  candidate_length: 1     # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理   
+set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
+  __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
+set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian
+  __include: 18jian
+pro_comment_format:           # 超级注释模块
+  candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
   corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
 ########################以下是方案配置######################################################
 ```
