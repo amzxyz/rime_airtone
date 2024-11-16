@@ -178,10 +178,6 @@ reduce_english_filter:
 translator:
   dictionary: wanxiang          # 挂载词库
   #prism: wanxiang          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
-  dynamic_model: true  # 启用动态语言模型
-  segment_length: 4  # 设置分词长度
-  prioritize_quality: true  # 启用优先质量选项
-  max_phrase_length: 7  # 设置短语的最大长度，如果主要输入单词或短短的短语，可以设置为4。句子更长一些
   enable_completion: true  # 启用候选词补全
   max_candidates: 10  # 设置最大候选词数量
 #  punctuation_model: default  # 设置标点符号模型
