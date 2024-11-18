@@ -1,5 +1,6 @@
 # Rime dictionary
 # encoding: utf-8
+#https://github.com/amzxyz/RIME-LMDG
 #错音措辞对照表
 ---
 name: corrections
@@ -188,3 +189,5 @@ columns:
 魔蝎座	mó xiē zuò	0	摩羯(jié)座
 万柏林	wàn bǎi lín	2
 万柏林	wàn bó lín	2	万柏(bǎi)林
+热烈	rè liè	0
+热列	rè liè	0	(热烈)
