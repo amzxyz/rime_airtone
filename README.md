@@ -32,8 +32,9 @@
 
 ```
  algebra:
-
-  - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
 ```
 ##### 末尾数字声调：
 ```
