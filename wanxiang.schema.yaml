@@ -437,10 +437,13 @@ octagram:
 algebra_pinyin: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
 algebra_zrm: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
@@ -473,8 +476,9 @@ algebra_zrm:
 
 algebra_flypy: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
@@ -507,8 +511,9 @@ algebra_flypy:
 
 algebra_sogou: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe].*)$/o$1/
     - xform/^([ae])(.*)$/$1$1$2/
@@ -542,8 +547,9 @@ algebra_sogou:
 
 algebra_mspy: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe].*)$/o$1/
     - xform/^([ae])(.*)$/$1$1$2/
@@ -578,8 +584,9 @@ algebra_mspy:
 
 algebra_abc: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - xform/^zh/Ⓐ/
     - xform/^ch/Ⓔ/
     - xform/^sh/Ⓥ/
@@ -609,8 +616,9 @@ algebra_abc:
 
 algebra_ziguang: 
   __append:
-    - erase/^xx$/
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - xform/^([aoe].*)$/Ⓞ$1/  # 添上固定的零聲母o，先標記爲大寫O
     - xform/en$/Ⓦ/
