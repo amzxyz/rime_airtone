@@ -35,10 +35,15 @@
  algebra:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
 ```
 ##### 末尾数字声调：
 ```
+    - xform/ń|ň|ǹ/en/   #先处理一些特殊音节
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
+    - xform/ńg|ňg|ǹg/en/
+
     - xform/^([a-zA-Z]+)$/$1①/
     - xform/^(.*)ā(.*)$/$1a$2①/
     - xform/^(.*)á(.*)$/$1a$2②/
@@ -74,6 +79,10 @@
 ```
 ##### 数字跟随元音声调：
 ```
+    - xform/ń|ň|ǹ/en/   #先处理一些特殊音节
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
+    - xform/ńg|ňg|ǹg/en/
+
     - xform/ā/a1 
     - xform/á/a2 
     - xform/ǎ/a3 
