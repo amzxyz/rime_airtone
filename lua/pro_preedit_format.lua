@@ -5,7 +5,6 @@ local function modify_preedit_filter(input, env)
 
     -- 初始化开关状态和分隔符
     env.settings = {tone_display = env.engine.context:get_option("tone_display")} or false
-    -- 自动分隔符和手动分隔符分别定义
     local auto_delimiter = delimiter:sub(1, 1)
     local manual_delimiter = delimiter:sub(2, 2)
 
@@ -59,11 +58,19 @@ local function modify_preedit_filter(input, env)
                         end
                     end
 
+                    -- 遍历拼音片段，将前面的片段替换为拼音
                     local pinyin_index = 1
                     for i, part in ipairs(input_parts) do
-                        if part ~= auto_delimiter and part ~= manual_delimiter and pinyin_index <= #pinyin_segments then
-                            input_parts[i] = pinyin_segments[pinyin_index]
-                            pinyin_index = pinyin_index + 1
+                        if part ~= auto_delimiter and part ~= manual_delimiter then
+                            if pinyin_index <= #pinyin_segments then
+                                if i == #input_parts and #part == 1 then
+                                    -- 对最后片段，仅输入1码时不转换
+                                    input_parts[i] = part
+                                else
+                                    input_parts[i] = pinyin_segments[pinyin_index]
+                                    pinyin_index = pinyin_index + 1
+                                end
+                            end
                         end
                     end
 

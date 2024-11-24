@@ -47,11 +47,11 @@ sort: by_weight
 不会折喇叭	bú huì zhé lǎ bā	1
 拉拉教丫丫折喇叭	lā lā jiào yā yā zhé lǎ bā	1
 丫丫教拉拉吹喇叭	yā yā jiào lā lā chuī lǎ bā	1
-两个乐得笑哈哈	liǎng gè lè de xiào hā hā	1
-荷花和蛤蟆一朵粉红大荷花	hé huā hé há má yì duǒ fěn hóng dà hé huā	1
-趴着一只活蛤蟆	pā zhe yì zhī huó há má	1
+两个乐得笑哈哈	liǎng gè lè dé xiào hā hā	1
+荷花和蛤蟆一朵粉红大荷花	hé huā hé há ma yì duǒ fěn hóng dà hé huā	1
+趴着一只活蛤蟆	pā zhe yì zhī huó há ma	1
 八朵粉红大荷花	bā duǒ fěn hóng dà hé huā	1
-趴着八只活蛤蟆	pā zhe bā zhǐ huó há má	1
+趴着八只活蛤蟆	pā zhe bā zhī huó há ma	1
 白石塔白石白又滑	bái shí tǎ bái shí bái yòu huá	1
 搬来白石搭白塔	bān lái bái shí dā bái tǎ	1
 白石塔	bái shí tǎ	1
@@ -100,7 +100,7 @@ sort: by_weight
 忙递给年四十的史肖石	máng dì gěi nián sì shí de shǐ xiào shí	1
 从南边来了个喇嘛	cóng nán biān lái le gè lǎ ma	1
 提拉着五斤塔嘛	tí lā zhe wǔ jīn tǎ ma	1
-从北边来个哑吧	cóng běi biān lái gè yǎ ba	1
+从北边来个哑吧	cóng běi biān lái gè yǎ bā	1
 腰里别着个喇叭	yāo lǐ bié zhe gè lǎ bā	1
 提拉塔嘛的喇嘛	tí lā tǎ ma de lǎ ma	1
 要拿塔嘛换别喇叭哑巴的喇叭	yào ná tǎ ma huàn bié lǎ bā yǎ bā de lǎ bā	1
@@ -136,7 +136,7 @@ sort: by_weight
 有个懒汉本姓阮	yǒu gè lǎn hàn běn xìng ruǎn	1
 提个篮子卖鸡卵	tí gè lán zi mài jī luǎn	1
 卖卵卖卵使劲喊	mài luǎn mài luǎn shǐ jìn hǎn	1
-谁都不来买鸡卵	shéi dōu bù lái mǎi jī luǎn	1
+谁都不来买鸡卵	shuí dōu bù lái mǎi jī luǎn	1
 不是鸡卵品种乱	bú shì jī luǎn pǐn zhǒng luàn	1
 而是鸡卵皮太软	ér shì jī luǎn pí tài ruǎn	1
 卖不出鸡卵难买饭	mài bù chū jī luǎn nán mǎi fàn	1
@@ -196,11 +196,11 @@ sort: by_weight
 嘴里有个舌头	zuǐ lǐ yǒu gè shé tou	1
 手上有五个手指头	shǒu shàng yǒu wǔ gè shǒu zhǐ tou	1
 不管是天上的热日头	bù guǎn shì tiān shàng de rè rì tou	1
-地下的硬石头	dì xià de yìng shí tou	1
+地下的硬石头	dì xià de yìng shí tóu	1
 嘴里的软舌头	zuǐ lǐ de ruǎn shé tou	1
 手上的手指头	shǒu shàng de shǒu zhǐ tou	1
 还是热日头	hái shì rè rì tou	1
-硬石头	yìng shí tou	1
+硬石头	yìng shí tóu	1
 软舌头	ruǎn shé tou	1
 手指头	shǒu zhǐ tou	1
 反正都是练舌头	fǎn zhèng dōu shì liàn shé tou	1
@@ -216,45 +216,45 @@ sort: by_weight
 要吃清蒸美鱼翅	yào chī qīng zhēng měi yú chì	1
 一口鱼翅刚到嘴	yì kǒu yú chì gāng dào zuǐ	1
 鱼刺刺进齿缝里	yú cì cì jìn chǐ fèng lǐ	1
-疼得小池拍腿挠牙齿	téng dé xiǎo chí pāi tuǐ náo yá chǐ	1
-河边两只鹅	hé biān liǎng zhǐ é	1
+疼得小池拍腿挠牙齿	téng de xiǎo chí pāi tuǐ náo yá chǐ	1
+河边两只鹅	hé biān liǎng zhī é	1
 白鹅与灰鹅	bái é yǔ huī é	1
-哦哦爱唱歌	ó ó ài chàng gē	1
-唱得渴又饿	chàng dé kě yòu è	1
+哦哦爱唱歌	ō ō ài chàng gē	1
+唱得渴又饿	chàng de kě yòu è	1
 昂首吸飞蛾	áng shǒu xī fēi é	1
 飞蛾啄不住岸边去找窝	fēi é zhuó bú zhù àn biān qù zhǎo wō	1
 草窝暗又矮	cǎo wō àn yòu ǎi	1
-只得去过河	zhǐ de qù guò hé	1
+只得去过河	zhǐ dé qù guò hé	1
 河里真暖和	hé lǐ zhēn nuǎn huo	1
 有吃又有喝	yǒu chī yòu yǒu hē	1
-不能再挨饿	bù néng zài ái è	1
+不能再挨饿	bù néng zài āi è	1
 遨游真快活	áo yóu zhēn kuài huó	1
 安心唱爱歌	ān xīn chàng ài gē	1
-婆婆和嬷嬷	pó pó hé mā mā	1
+婆婆和嬷嬷	pó pó hé mó mó	1
 来到山坡坡	lái dào shān pō pō	1
 婆婆默默采蘑菇	pó pó mò mò cǎi mó gū	1
-嬷嬷默默拔萝卜	mā mā mò mò bá luó bo	1
-婆婆拿了一个破簸箕	pó pó ná le yí gè pò bò jī	1
-嬷嬷带了一个薄笸箩	mā mā dài le yí gè báo pǒ luó	1
-婆婆采了半簸箕小蘑菇	pó pó cǎi le bàn bò jī xiǎo mó gū	1
-嬷嬷拔了一笸箩大萝卜	mā mā bá le yī pǒ luó dà luó bo	1
+嬷嬷默默拔萝卜	mó mó mò mò bá luó bo	1
+婆婆拿了一个破簸箕	pó pó ná le yí gè pò bò ji	1
+嬷嬷带了一个薄笸箩	mó mó dài le yí gè báo pǒ luó	1
+婆婆采了半簸箕小蘑菇	pó pó cǎi le bàn bò ji xiǎo mó gū	1
+嬷嬷拔了一笸箩大萝卜	mó mó bá le yī pǒ luó dà luó bo	1
 婆婆采了蘑菇换饽饽	pó pó cǎi le mó gū huàn bō bō	1
-嬷嬷卖了萝卜买馍馍	mā mā mài le luó bo mǎi mó mó	1
+嬷嬷卖了萝卜买馍馍	mó mó mài le luó bo mǎi mó mó	1
 牛牛要吃河边柳	niú niú yào chī hé biān liǔ	1
 妞妞赶牛牛不走	niū niū gǎn niú niú bù zǒu	1
 妞妞护柳牛扭头	niū niū hù liǔ niú niǔ tóu	1
 牛牛扭头瞅妞妞	niú niú niǔ tóu chǒu niū niū	1
 妞妞扭牛牛更拗	niū niū niǔ niú niú gèng ǎo	1
 牛牛要顶小妞妞	niú niú yào dǐng xiǎo niū niū	1
-妞妞捡起小石头	niū niū jiǎn qǐ xiǎo shí tou	1
-吓得牛牛扭头走	xià dé niú niú niǔ tóu zǒu	1
+妞妞捡起小石头	niū niū jiǎn qǐ xiǎo shí tóu	1
+吓得牛牛扭头走	xià de niú niú niǔ tóu zǒu	1
 板凳宽	bǎn dèng kuān	1
 扁担长	biǎn dàn zhǎng	1
 扁担没有板凳宽	biǎn dàn méi yǒu bǎn dèng kuān	1
 板凳没有扁担长	bǎn dèng méi yǒu biǎn dàn zhǎng	1
 扁担绑在那个板凳上	biǎn dàn bǎng zài nà gè bǎn dèng shàng	1
 板凳不让扁担绑在那板凳上	bǎn dèng bú ràng biǎn dàn bǎng zài nà bǎn dèng shàng	1
-那个扁担偏要绑在那个板凳上	nà gè biǎn dàn piān yào bǎng zài nà gè bǎn dèng shàng	1
+那个扁担偏要绑在那个板凳上	nà ge biǎn dàn piān yào bǎng zài nà gè bǎn dèng shàng	1
 四是四	sì shì sì	1
 十是十	shí shì shí	1
 十四是十四	shí sì shì shí sì	1
@@ -270,13 +270,13 @@ sort: by_weight
 横竖两次撕了四十四张湿字纸	héng shù liǎng cì sī le sì shí sì zhāng shī zì zhǐ	1
 是字纸你就撕字纸	shì zì zhǐ nǐ jiù sī zì zhǐ	1
 不是字纸	bú shì zì zhǐ	1
-你就不要胡乱地撕一地纸	nǐ jiù bú yào hú luàn dì sī yī dì zhǐ	1
-胡子骑驴子胡子骑驴子	hú zi qí lǘ zi hú zi qí lǘ zi	1
+你就不要胡乱地撕一地纸	nǐ jiù bù yào hú luàn dì sī yí dì zhǐ	1
+胡子骑驴子胡子骑驴子	hú zi qí lǘ zǐ hú zi qí lǘ zǐ	1
 驼子挑螺蛳	tuó zi tiāo luó sī	1
 胡子撞翻了驼子的螺蛳	hú zi zhuàng fān le tuó zi de luó sī	1
-驼子拖住胡子的驴子	tuó zi tuō zhù hú zi de lǘ zi	1
+驼子拖住胡子的驴子	tuó zi tuō zhù hú zi de lǘ zǐ	1
 胡子去打挑螺蛳的驼子	hú zi qù dǎ tiāo luó sī de tuó zi	1
-驼子来打骑驴子的胡子	tuó zi lái dǎ qí lǘ zi de hú zi	1
+驼子来打骑驴子的胡子	tuó zi lái dǎ qí lǘ zǐ de hú zi	1
 胡子打驼子	hú zi dǎ tuó zi	1
 驼子打胡子	tuó zi dǎ hú zi	1
 鸟和猫树上一只鸟	niǎo hé māo shù shàng yì zhī niǎo	1
@@ -286,7 +286,7 @@ sort: by_weight
 捉壁虎李虎捉壁虎	zhuō bì hǔ lǐ hǔ zhuō bì hǔ	1
 本是虎捉虎	běn shì hǔ zhuō hǔ	1
 李虎满屋转	lǐ hǔ mǎn wū zhuǎn	1
-壁虎不敢咬李虎	bì hǔ bú gǎn yǎo lǐ hǔ	1
+壁虎不敢咬李虎	bì hǔ bù gǎn yǎo lǐ hǔ	1
 李虎也捉不住壁虎	lǐ hǔ yě zhuō bú zhù bì hǔ	1
 养鱼大渠养大鱼不养小鱼	yǎng yú dà qú yǎng dà yú bù yǎng xiǎo yú	1
 小渠养小鱼不养大鱼	xiǎo qú yǎng xiǎo yú bù yǎng dà yú	1
@@ -304,24 +304,24 @@ sort: by_weight
 地下是石头不是日头	dì xià shì shí tou bú shì rì tou	1
 嘴里是舌头不是塞头	zuǐ lǐ shì shé tou bú shì sāi tóu	1
 瓶中是塞头不是舌头	píng zhōng shì sāi tóu bú shì shé tou	1
-三娘找山羊三娘在山上放三只山羊	sān niáng zhǎo shān yáng sān niáng zài shān shàng fàng sān zhǐ shān yáng	1
-三只山羊翻过山梁	sān zhǐ shān yáng fān guò shān liáng	1
-三娘翻过山梁去找三只山羊	sān niáng fān guò shān liáng qù zhǎo sān zhǐ shān yáng	1
-三只山羊躲在杉树旁	sān zhǐ shān yáng duǒ zài shān shù páng	1
-三娘找到三只山羊	sān niáng zhǎo dào sān zhǐ shān yáng	1
+三娘找山羊三娘在山上放三只山羊	sān niáng zhǎo shān yáng sān niáng zài shān shàng fàng sān zhī shān yáng	1
+三只山羊翻过山梁	sān zhī shān yáng fān guò shān liáng	1
+三娘翻过山梁去找三只山羊	sān niáng fān guò shān liáng qù zhǎo sān zhī shān yáng	1
+三只山羊躲在杉树旁	sān zhī shān yáng duǒ zài shān shù páng	1
+三娘找到三只山羊	sān niáng zhǎo dào sān zhī shān yáng	1
 六叔和六舅好六叔和好六舅	liù shū hé liù jiù hǎo liù shū hé hǎo liù jiù	1
-借给六斗六升绿绿豆	jiè gěi liù dòu liù shēng lǜ lǜ dòu	1
+借给六斗六升绿绿豆	jiè gěi liù dǒu liù shēng lǜ lǜ dòu	1
 打罢秋	dǎ bà qiū	1
 接住豆	jiē zhù dòu	1
-再还六叔六舅六斗六升绿绿豆	zài hái liù shū liù jiù liù dòu liù shēng lǜ lǜ dòu	1
+再还六叔六舅六斗六升绿绿豆	zài hái liù shū liù jiù liù dǒu liù shēng lǜ lǜ dòu	1
 上果市四个孩子上果市	shàng guǒ shì sì gè hái zi shàng guǒ shì	1
 拿着四个小篮子	ná zhe sì gè xiǎo lán zi	1
 花了硬币四毛四	huā le yìng bì sì máo sì	1
-买了十个小柿子	mǎi le shí gè xiǎo shì zi	1
+买了十个小柿子	mǎi le shí ge xiǎo shì zi	1
 四个孩子出果市	sì gè hái zi chū guǒ shì	1
-拾了四十小石子	shí le sì shí xiǎo shí zǐ	1
+拾了四十小石子	shí le sì shí xiǎo shí zi	1
 到了家里吃柿子	dào le jiā lǐ chī shì zi	1
-吃完柿子玩石子	chī wán shì zi wán shí zǐ	1
+吃完柿子玩石子	chī wán shì zi wán shí zi	1
 学捏梨盘里放着一个梨	xué niē lí pán lǐ fàng zhe yí gè lí	1
 桌上放块橡皮泥	zhuō shàng fàng kuài xiàng pí ní	1
 小丽用泥学捏梨	xiǎo lì yòng ní xué niē lí	1
@@ -330,29 +330,29 @@ sort: by_weight
 真梨	zhēn lí	1
 假梨差不离	jiǎ lí chà bù lí	1
 秃丫头从南来了个秃丫头	tū yā tou cóng nán lái le gè tū yā tou	1
-胳膊上挎着个破笆斗	gē bó shàng kuà zhe gè pò bā dǒu	1
-里头有堆羊骨头	lǐ tou yǒu duī yáng gú tou	1
-伸手拿骨头	shēn shǒu ná gú tou	1
-送在口里啃骨头	sòng zài kǒu lǐ kěn gú tou	1
+胳膊上挎着个破笆斗	gē bo shàng kuà zhe gè pò bā dǒu	1
+里头有堆羊骨头	lǐ tou yǒu duī yáng gǔ tóu	1
+伸手拿骨头	shēn shǒu ná gǔ tou	1
+送在口里啃骨头	sòng zài kǒu lǐ kěn gǔ tou	1
 地下有块破砖头	dì xià yǒu kuài pò zhuān tóu	1
 绊倒了秃丫头	bàn dǎo le tū yā tou	1
-撒了羊骨头	sā le yáng gú tou	1
+撒了羊骨头	sā le yáng gǔ tóu	1
 盆和瓶桌上放个盆	pén hé píng zhuō shàng fàng gè pén	1
 盆里有个瓶	pén lǐ yǒu gè píng	1
 砰砰啪啪	pēng pēng pā pā	1
 啪啪砰砰	pā pā pēng pēng	1
 不知是瓶碰盆	bù zhī shì píng pèng pén	1
 还是盆碰瓶	hái shì pén pèng píng	1
-丽丽和弟弟丽丽家来了小弟弟	lì lì hé dì dì lì lì jiā lái le xiǎo dì dì	1
-弟弟叫丽丽出来做游戏	dì dì jiào lì lì chū lái zuò yóu xì	1
-丽丽和弟弟拿不定主意	lì lì hé dì dì ná bú dìng zhǔ yì	1
+丽丽和弟弟丽丽家来了小弟弟	lì lì hé dì di lì lì jiā lái le xiǎo dì dì	1
+弟弟叫丽丽出来做游戏	dì di jiào lì lì chū lái zuò yóu xì	1
+丽丽和弟弟拿不定主意	lì lì hé dì di ná bú dìng zhǔ yì	1
 是做游戏还是玩玩具	shì zuò yóu xì hái shì wán wán jù	1
 梨和犁耕地要用犁	lí hé lí gēng dì yào yòng lí	1
 口渴要吃梨	kǒu kě yào chī lí	1
-梨子掉下地	lí zi diào xià dì	1
+梨子掉下地	lí zǐ diào xià dì	1
 沾了一身泥	zhān le yì shēn ní	1
 不要扔了梨	bú yào rēng le lí	1
-只需洗掉泥	zhǐ xū xǐ diào ní	1
+只需洗掉泥	xū zhǐ xǐ diào ní	1
 种冬瓜东门童家门东董家	zhǒng dōng guā dōng mén tóng jiā mén dōng dǒng jiā	1
 童	tóng	1
 董两家	dǒng liǎng jiā	1
@@ -362,25 +362,25 @@ sort: by_weight
 门东董家懂种冬瓜	mén dōng dǒng jiā dǒng zhǒng dōng guā	1
 来教东门童家种冬瓜	lái jiào dōng mén tóng jiā zhòng dōng guā	1
 童家	tóng jiā	1
-董家都懂得种冬瓜	dǒng jiā dōu dǒng de zhǒng dōng guā	1
+董家都懂得种冬瓜	dǒng jiā dōu dǒng dé zhǒng dōng guā	1
 童	tóng	1
 董两家的冬瓜比桶大	dǒng liǎng jiā de dōng guā bǐ tǒng dà	1
 小花鼓一面小花鼓	xiǎo huā gǔ yì miàn xiǎo huā gǔ	1
 鼓上画老虎	gǔ shàng huà lǎo hǔ	1
-妈妈用布来补	mā mā yòng bù lái bǔ	1
+妈妈用布来补	mā mɑ yòng bù lái bǔ	1
 到底是布补鼓	dào dǐ shì bù bǔ gǔ	1
 还是布补虎	hái shì bù bǔ hǔ	1
 天上七颗星天上七颗星	tiān shàng qī kē xīng tiān shàng qī kē xīng	1
 地上七块冰	dì shàng qī kuài bīng	1
 台上七盏灯	tái shàng qī zhǎn dēng	1
-树上七只莺	shù shàng qī zhǐ yīng	1
+树上七只莺	shù shàng qī zhī yīng	1
 墙上七枚钉	qiáng shàng qī méi dīng	1
 吭唷吭唷拔脱七枚钉	kēng yō kēng yō bá tuō qī méi dīng	1
-喔嘘喔嘘赶走七只莺	ō xū ō xū gǎn zǒu qī zhǐ yīng	1
+喔嘘喔嘘赶走七只莺	ō xū ō xū gǎn zǒu qī zhī yīng	1
 乒乒乓乓踏坏七块冰	pīng pīng pāng pāng tà huài qī kuài bīng	1
 一阵风来吹来七盏灯	yí zhèn fēng lái chuī lái qī zhǎn dēng	1
-一片乌云遮掉七颗星	yì piàn wū yún zhē diào qī kē xīng	1
-白果树我从伯伯门前过	bái guǒ shù wǒ cóng bó bó mén qián guò	1
+一片乌云遮掉七颗星	yí piàn wū yún zhē diào qī kē xīng	1
+白果树我从伯伯门前过	bái guǒ shù wǒ cóng bó bo mén qián guò	1
 看见伯爹伯妈门前种着白果树	kàn jiàn bó diē bó mā mén qián zhǒng zhe bái guǒ shù	1
 白果树上站着百十百个白斑鸠	bái guǒ shù shàng zhàn zhe bǎi shí bǎi gè bái bān jiū	1
 我就拣了百十百块白石头	wǒ jiù jiǎn le bǎi shí bǎi kuài bái shí tou	1
@@ -390,16 +390,16 @@ sort: by_weight
 黑猫的白鼻子	hēi māo de bái bí zi	1
 碰破了白猫黑鼻子	pèng pò le bái māo hēi bí zi	1
 白猫的黑鼻子破了	bái māo de hēi bí zi pò le	1
-剥了秕谷壳儿补鼻子	bō le bǐ gǔ ké er bǔ bí zi	1
-黑猫的白鼻子不破	hēi māo de bái bí zi bú pò	1
+剥了秕谷壳儿补鼻子	bāo le bǐ gǔ ké er bǔ bí zi	1
+黑猫的白鼻子不破	hēi māo de bái bí zi bù pò	1
 不剥秕谷壳儿补鼻子	bù bō bǐ gǔ ké er bǔ bí zi	1
 小花猫小花猫爱画画	xiǎo huā māo xiǎo huā māo ài huà huà	1
 先画一朵腊梅花	xiān huà yì duǒ là méi huā	1
 又画一个小喇叭	yòu huà yí gè xiǎo lǎ bā	1
 带着腊梅花	dài zhe là méi huā	1
 吹着小喇叭	chuī zhe xiǎo lǎ bā	1
-回家去见妈妈	huí jiā qù jiàn mā mā	1
-妈妈见了笑哈哈	mā mā jiàn le xiào hā hā	1
+回家去见妈妈	huí jiā qù jiàn mā mɑ	1
+妈妈见了笑哈哈	mā mɑ jiàn le xiào hā hā	1
 白庙	bái miào	1
 白猫山上有座白庙	bái māo shān shàng yǒu zuò bái miào	1
 地上有只白猫	dì shàng yǒu zhǐ bái māo	1
@@ -428,13 +428,13 @@ sort: by_weight
 黑猪说乌鸦比黑猪还要黑	hēi zhū shuō wū yā bǐ hēi zhū hái yào hēi	1
 乌鸦说它身比黑猪黑	wū yā shuō tā shēn bǐ hēi zhū hēi	1
 嘴不黑	zuǐ bù hēi	1
-黑猪听罢笑得嘿嘿嘿	hēi zhū tīng bà xiào dé hēi hēi hēi	1
-倒吊鸟梁上两对倒吊鸟	dào diào niǎo liáng shàng liǎng duì dào diào niǎo	1
+黑猪听罢笑得嘿嘿嘿	hēi zhū tīng bà xiào de hēi hēi hēi	1
+倒吊鸟梁上两对倒吊鸟	dào diào niǎo liáng shàng liǎng duì dǎo diào niǎo	1
 泥里两对鸟倒吊	ní lǐ liǎng duì niǎo dào diào	1
-可怜梁上的两对倒吊鸟	kě lián liáng shàng de liǎng duì dào diào niǎo	1
+可怜梁上的两对倒吊鸟	kě lián liáng shàng de liǎng duì dǎo diào niǎo	1
 惦着泥里的两对鸟倒吊	diàn zhe ní lǐ de liǎng duì niǎo dào diào	1
 可怜泥里的两对鸟倒吊	kě lián ní lǐ de liǎng duì niǎo dào diào	1
-也惦着梁上的两对倒吊鸟	yě diàn zhe liáng shàng de liǎng duì dào diào niǎo	1
+也惦着梁上的两对倒吊鸟	yě diàn zhe liáng shàng de liǎng duì dǎo diào niǎo	1
 灰猫追花鸟灰猫跳	huī māo zhuī huā niǎo huī māo tiào	1
 花鸟叫	huā niǎo jiào	1
 灰猫听花鸟叫	huī māo tīng huā niǎo jiào	1
@@ -471,21 +471,21 @@ sort: by_weight
 墙要枪上窗	qiáng yào qiāng shàng chuāng	1
 互相不退让	hù xiāng bú tuì ràng	1
 糠赶不走枪	kāng gǎn bù zǒu qiāng	1
-枪也上不了窗和墙	qiāng yě shàng bù liǎo chuāng hé qiáng	1
+枪也上不了窗和墙	qiāng yě shàng bù le chuāng hé qiáng	1
 雕与猫树上有只雕	diāo yǔ māo shù shàng yǒu zhǐ diāo	1
 地上有只猫	dì shàng yǒu zhǐ māo	1
 地上的猫想叼走树上的雕	dì shàng de māo xiǎng diāo zǒu shù shàng de diāo	1
 树上的雕啄猫身上的毛	shù shàng de diāo zhuó māo shēn shàng de máo	1
 雕吓走了猫	diāo xià zǒu le māo	1
 猫赶飞了雕	māo gǎn fēi le diāo	1
-分果果多多和哥哥	fēn guǒ guǒ duō duō hé gē gē	1
+分果果多多和哥哥	fēn guǒ guǒ duō duō hé gē ge	1
 坐下分果果	zuò xià fēn guǒ guǒ	1
-哥哥让多多	gē gē ràng duō duō	1
-多多让哥哥	duō duō ràng gē gē	1
-都说要小个	dōu shuō yào xiǎo gè	1
+哥哥让多多	gē ge ràng duō duō	1
+多多让哥哥	duō duō ràng gē ge	1
+都说要小个	shuō dōu yào xiǎo gè	1
 外婆乐呵呵	wài pó lè hē hē	1
 小牛赔油小牛放学去打球	xiǎo niú péi yóu xiǎo niú fàng xué qù dǎ qiú	1
-踢倒老刘一瓶油	tī dào lǎo liú yì píng yóu	1
+踢倒老刘一瓶油	tī dǎo lǎo liú yì píng yóu	1
 小牛回家取来油	xiǎo niú huí jiā qǔ lái yóu	1
 向老刘道歉又赔油	xiàng lǎo liú dào qiàn yòu péi yóu	1
 老刘不要小牛还油	lǎo liú bú yào xiǎo niú hái yóu	1
@@ -543,10 +543,10 @@ sort: by_weight
 星映灯	xīng yìng dēng	1
 灯映星	dēng yìng xīng	1
 分不清是灯还是星	fēn bù qīng shì dēng hái shì xīng	1
-鹅过河哥哥弟弟坡前坐	é guò hé gē gē dì dì pō qián zuò	1
+鹅过河哥哥弟弟坡前坐	é guò hé gē ge dì di pō qián zuò	1
 坡上卧着一只鹅	pō shàng wò zhe yì zhī é	1
 坡下流着一条河	pō xià liú zhe yì tiáo hé	1
-哥哥说	gē gē shuō	1
+哥哥说	gē ge shuō	1
 宽宽的河	kuān kuān de hé	1
 弟弟说	dì dì shuō	1
 白白的鹅	bái bái de é	1
@@ -559,8 +559,8 @@ sort: by_weight
 牛牛扭头瞅妞妞	niú niú niǔ tóu chǒu niū niū	1
 妞妞扭牛牛更牛	niū niū niǔ niú niú gèng niú	1
 牛牛要顶妞妞	niú niú yào dǐng niū niū	1
-妞妞捡起小石头	niū niū jiǎn qǐ xiǎo shí tou	1
-吓得牛牛扭头溜	xià dé niú niú niǔ tóu liū	1
+妞妞捡起小石头	niū niū jiǎn qǐ xiǎo shí tóu	1
+吓得牛牛扭头溜	xià de niú niú niǔ tóu liū	1
 扁担和板凳板凳宽	biǎn dàn hé bǎn dèng bǎn dèng kuān	1
 扁担长	biǎn dàn zhǎng	1
 板凳比扁担宽	bǎn dèng bǐ biǎn dàn kuān	1
@@ -569,11 +569,11 @@ sort: by_weight
 板凳不让扁担绑在板凳上	bǎn dèng bú ràng biǎn dàn bǎng zài bǎn dèng shàng	1
 扁担偏要板凳让扁担绑在板凳上	biǎn dàn piān yào bǎn dèng ràng biǎn dàn bǎng zài bǎn dèng shàng	1
 公园有四排石狮子	gōng yuán yǒu sì pái shí shī zi	1
-每排是十四只大石狮子	měi pái shì shí sì zhǐ dà shí shī zi	1
-每只大石狮子背上是一只小石狮子	měi zhǐ dà shí shī zi bèi shàng shì yì zhī xiǎo shí shī zi	1
-每只大石狮子脚边是四只小石狮子	měi zhǐ dà shí shī zi jiǎo biān shì sì zhǐ xiǎo shí shī zi	1
+每排是十四只大石狮子	měi pái shì shí sì zhī dà shí shī zi	1
+每只大石狮子背上是一只小石狮子	měi zhī dà shí shī zi bèi shàng shì yì zhī xiǎo shí shī zi	1
+每只大石狮子脚边是四只小石狮子	měi zhī dà shí shī zi jiǎo biān shì sì zhī xiǎo shí shī zi	1
 史老师领四十四个学生去数石狮子	shǐ lǎo shī lǐng sì shí sì gè xué shēng qù shù shí shī zi	1
-你说共数出多少只大石狮子和多少只小石狮子	nǐ shuō gòng shù chū duō shǎo zhǐ dà shí shī zi hé duō shǎo zhǐ xiǎo shí shī zi	1
+你说共数出多少只大石狮子和多少只小石狮子	nǐ shuō gòng shǔ chū duō shǎo zhǐ dà shí shī zi hé duō shǎo zhǐ xiǎo shí shī zi	1
 房子里有箱子	fáng zi lǐ yǒu xiāng zi	1
 箱子里有匣子	xiāng zi lǐ yǒu xiá zi	1
 匣子里有盒子	xiá zi lǐ yǒu hé zi	1
@@ -585,13 +585,13 @@ sort: by_weight
 天上七颗星	tiān shàng qī kē xīng	1
 地上七块冰	dì shàng qī kuài bīng	1
 台上七盏灯	tái shàng qī zhǎn dēng	1
-树上七只莺	shù shàng qī zhǐ yīng	1
+树上七只莺	shù shàng qī zhī yīng	1
 墙上七枚钉	qiáng shàng qī méi dīng	1
 吭唷吭唷拔脱七枚钉	kēng yō kēng yō bá tuō qī méi dīng	1
-喔嘘喔嘘赶走七只莺	ō xū ō xū gǎn zǒu qī zhǐ yīng	1
+喔嘘喔嘘赶走七只莺	ō xū ō xū gǎn zǒu qī zhī yīng	1
 乒乒乓乓踏坏七块冰	pīng pīng pāng pāng tà huài qī kuài bīng	1
 一阵风来吹来七盏灯	yí zhèn fēng lái chuī lái qī zhǎn dēng	1
-一片乌云遮掉七颗星	yì piàn wū yún zhē diào qī kē xīng	1
+一片乌云遮掉七颗星	yí piàn wū yún zhē diào qī kē xīng	1
 两个火	liǎng gè huǒ	1
 两个土	liǎng gè tǔ	1
 两个一	liǎng gè yī	1

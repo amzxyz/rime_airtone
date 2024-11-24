@@ -13,7 +13,7 @@ pro_comment_format:           # 超级注释模块
 schema:
   schema_id: wanxiang
   name: 万象拼音
-  version: "2024-08-05"
+  version: "2024-11-11"
   author:
     - amzxyz
   description: |
@@ -22,8 +22,6 @@ schema:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
     - stroke         #笔画反查
-
-
 # 开关
 # reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
 # states: 方案选单显示的名称。可以注释掉，仍可以通过快捷键切换。
@@ -179,18 +177,16 @@ translator:
   dictionary: wanxiang          # 挂载词库
   #prism: wanxiang          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   enable_completion: true  # 启用候选词补全
-  max_candidates: 10  # 设置最大候选词数量
-#  punctuation_model: default  # 设置标点符号模型
 #  single_char_first: true  # 优先显示单个字符
 #  candidate_filter: "^(?!abc).*$"  # 过滤掉包含 "abc" 的候选词
 #  user_dict: zrm.userdb  # 用户词典的文件名称
 #  db_class: tabledb  #开启后就不会产生zrm.userdb这样的文件夹，会直接输出文本zrm.txt同时无法使用同步能力
-  enable_user_dict: true # 是否开启自动调频
+  enable_user_dict: false # 是否开启自动调频
   enable_correction: false #是否开启自动纠错
   encode_commit_history: true   # 预留历史上屏自动编码成词
   initial_quality: 3       # 初始质量拼音的权重应该比英文大
 #  secondary_quality: 0.8  # 设置次要质量
-  spelling_hints: 20       # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
+  spelling_hints: 100       # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
   always_show_comments: true    # Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供pro_comment_format.lua做判断用。
   comment_format: {comment}  #将注释以词典字符串形式完全暴露，通过pro_comment_preedit_format.lua完全接管，灵活配置。
   preedit_format:     #影响到输入框的显示和“Shift+回车”上屏的字符，交给pro_comment_preedit_format处理
@@ -283,6 +279,15 @@ reverse_stroke:
   tips: 〔笔画 hspnz〕 
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
+
+radical_lookup:
+  tag: radical_lookup
+  dictionary: radical_pinyin
+  enable_user_dict: false
+  prefix: "az"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
+  tips: "  〔部件组字〕"
+  comment_format:  #{comment}
+    - erase/^.*$//
 
 # 部件拆字滤镜
 radical_reverse_lookup:
@@ -422,27 +427,20 @@ punctuator:
   symbols:
     __include: symbols:/symbols         # 从 symbols.yaml 导入配置
 
-__include: octagram   #启用语言模型
-#语言模型
-octagram:
-  __patch:
-    grammar:
-      language: amz-v2n3m1-zh-hans  
-      collocation_max_length: 5
-      collocation_min_length: 2
-    translator/contextual_suggestions: true
-    translator/max_homophones: 7
-    translator/max_homographs: 7
+
 
 algebra_pinyin: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
+    - abbrev/^([a-z]).+$/$1/
 algebra_zrm: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
@@ -473,11 +471,12 @@ algebra_zrm:
     - xform/(.)ou$/$1Ⓑ/
     - xform/in$/Ⓝ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-
+    - abbrev/^([a-z]).+$/$1/
 algebra_flypy: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
@@ -508,11 +507,12 @@ algebra_flypy:
     - xform/ui$/Ⓥ/
     - xform/in$/Ⓑ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
-
+    - abbrev/^([a-z]).+$/$1/
 algebra_sogou: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe].*)$/o$1/
@@ -544,11 +544,12 @@ algebra_sogou:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-
+    - abbrev/^([a-z]).+$/$1/
 algebra_mspy: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe].*)$/o$1/
@@ -581,11 +582,12 @@ algebra_mspy:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-
+    - abbrev/^([a-z]).+$/$1/
 algebra_abc: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - xform/^zh/Ⓐ/
     - xform/^ch/Ⓔ/
@@ -613,11 +615,12 @@ algebra_abc:
     - xform/un$/Ⓝ/
     - xform/[uv]e$|ui$/Ⓜ/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
-
+    - abbrev/^([a-z]).+$/$1/
 algebra_ziguang: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
     - derive/^([jqxy])u$/$1v/
     - xform/^([aoe].*)$/Ⓞ$1/  # 添上固定的零聲母o，先標記爲大寫O
@@ -646,8 +649,60 @@ algebra_ziguang:
     - xform/ao$/Ⓠ/ # ao should be placed after iao
     - xform/an$/Ⓡ/ # an should be placed after uan/ian
     - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
+    - abbrev/^([a-z]).+$/$1/
 
-
+algebra_lx17:   #乱序17
+  __append:
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
+    - xform/ńg|ňg|ǹg/en/
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1Ⓥ/
+    - xform/^ch/Ⓒ/
+    - xform/^c/Ⓕ/
+    - xform/^k/Ⓙ/
+    - xform/^([aoe].*)$/Ⓠ$1/
+    - xform/^p/Ⓗ/
+    - xform/^r/Ⓝ/
+    - xform/^sh/Ⓢ/
+    - xform/^s/Ⓜ/
+    - xform/^zh/Ⓩ/
+    - xform/^z/Ⓦ/
+    - xform/uang$/Ⓠ/
+    - xform/iang$/Ⓒ/
+    - xform/iong$/Ⓑ/
+    - xform/ang$/Ⓩ/
+    - xform/eng$/Ⓨ/
+    - xform/ian$/Ⓠ/
+    - xform/iao$/Ⓩ/
+    - xform/ing$/Ⓨ/
+    - xform/ong$/Ⓣ/
+    - xform/uai$/Ⓧ/
+    - xform/uan$/Ⓧ/
+    - xform/ai$/Ⓛ/
+    - xform/an$/Ⓝ/
+    - xform/ao$/Ⓑ/
+    - xform/ei$/Ⓖ/
+    - xform/en$/Ⓢ/
+    - xform/er$/Ⓣ/
+    - xform/ua$/Ⓗ/
+    - xform/ie$/Ⓜ/
+    - xform/in$/Ⓢ/
+    - xform/iu$/Ⓕ/
+    - xform/ou$/Ⓕ/
+    - xform/ia$/Ⓗ/
+    - xform/[uv]e$/Ⓛ/
+    - xform/ui$/Ⓒ/
+    - xform/un$/Ⓖ/
+    - xform/uo$/Ⓜ/
+    - xform/a$/Ⓗ/
+    - xform/e$/Ⓦ/
+    - xform/i$/Ⓙ/
+    - xform/o$/Ⓧ/
+    - xform/u$/Ⓓ/
+    - xform/v$/Ⓧ/
+    - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
 #以下配合同文输入法等使用，将共键字母后者转换为前者
 9jian:
   __append:
@@ -697,3 +752,16 @@ algebra_ziguang:
     - xform/n/b/
 26jian:          
   __append: []
+
+#__include: octagram   #启用语言模型
+#语言模型
+octagram:
+  __patch:
+    grammar:
+      #language: amz-v2n3m1-zh-hans
+      language: zh-hans  
+      collocation_max_length: 6
+      collocation_min_length: 2
+    translator/contextual_suggestions: true
+    translator/max_homophones: 7
+    translator/max_homographs: 7
