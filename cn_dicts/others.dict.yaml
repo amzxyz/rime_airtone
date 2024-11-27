@@ -326,8 +326,6 @@ sort: by_weight
 桌上放块橡皮泥	zhuō shàng fàng kuài xiàng pí ní	1
 小丽用泥学捏梨	xiǎo lì yòng ní xué niē lí	1
 眼看着梨手捏泥	yǎn kàn zhe lí shǒu niē ní	1
-比比	bǐ bǐ	1
-真梨	zhēn lí	1
 假梨差不离	jiǎ lí chà bù lí	1
 秃丫头从南来了个秃丫头	tū yā tou cóng nán lái le gè tū yā tou	1
 胳膊上挎着个破笆斗	gē bo shàng kuà zhe gè pò bā dǒu	1
@@ -354,7 +352,6 @@ sort: by_weight
 不要扔了梨	bú yào rēng le lí	1
 只需洗掉泥	xū zhǐ xǐ diào ní	1
 种冬瓜东门童家门东董家	zhǒng dōng guā dōng mén tóng jiā mén dōng dǒng jiā	1
-童	tóng	1
 董两家	dǒng liǎng jiā	1
 同种冬瓜	tóng zhǒng dōng guā	1
 童家知道董家冬瓜大	tóng jiā zhī dào dǒng jiā dōng guā dà	1
@@ -363,7 +360,6 @@ sort: by_weight
 来教东门童家种冬瓜	lái jiào dōng mén tóng jiā zhòng dōng guā	1
 童家	tóng jiā	1
 董家都懂得种冬瓜	dǒng jiā dōu dǒng dé zhǒng dōng guā	1
-童	tóng	1
 董两家的冬瓜比桶大	dǒng liǎng jiā de dōng guā bǐ tǒng dà	1
 小花鼓一面小花鼓	xiǎo huā gǔ yì miàn xiǎo huā gǔ	1
 鼓上画老虎	gǔ shàng huà lǎo hǔ	1
@@ -400,7 +396,6 @@ sort: by_weight
 吹着小喇叭	chuī zhe xiǎo lǎ bā	1
 回家去见妈妈	huí jiā qù jiàn mā mɑ	1
 妈妈见了笑哈哈	mā mɑ jiàn le xiào hā hā	1
-白庙	bái miào	1
 白猫山上有座白庙	bái māo shān shàng yǒu zuò bái miào	1
 地上有只白猫	dì shàng yǒu zhǐ bái māo	1
 白发老公公掉了一顶白帽	bái fà lǎo gōng gōng diào le yì dǐng bái mào	1
@@ -409,7 +404,6 @@ sort: by_weight
 藤条头上挂铜铃	téng tiáo tóu shàng guà tóng líng	1
 风吹藤动铜铃动	fēng chuī téng dòng tóng líng dòng	1
 风停藤停铜铃停	fēng tíng téng tíng tóng líng tíng	1
-狗	gǒu	1
 猴过桥桥东走来一条狗	hóu guò qiáo qiáo dōng zǒu lái yì tiáo gǒu	1
 桥西走来一只猴	qiáo xī zǒu lái yì zhī hóu	1
 行到桥心碰了头	xíng dào qiáo xīn pèng le tóu	1
@@ -442,9 +436,6 @@ sort: by_weight
 灰猫跳起抓花鸟	huī māo tiào qǐ zhuā huā niǎo	1
 花鸟怕灰猫	huā niǎo pà huī māo	1
 拔腿就逃掉	bá tuǐ jiù táo diào	1
-蒋	jiǎng	1
-墙	qiáng	1
-杨	yáng	1
 羊蒋家砌了一垛墙	yáng jiǎng jiā qì le yī duǒ qiáng	1
 杨家养了一只羊	yáng jiā yǎng le yì zhī yáng	1
 杨家羊	yáng jiā yáng	1
