@@ -17,7 +17,7 @@ schema:
   author:
     - amzxyz
   description: |
-    万象拼音间接辅助码版本，带音调的词库，更好用！
+    万象拼音无辅助码版本，带音调的词库，更好用！
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
@@ -44,9 +44,6 @@ switches:
   - name: tone_display
     states: [ 调, 音 ]
     reset: 1
-  - name: word_frequency
-    states: [ 小, 大 ]
-    reset: 0
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
     states: [词, 单]
 
@@ -54,7 +51,7 @@ switches:
 # 输入引擎
 engine:
   processors:
-    - lua_processor@*select_character          # 以词定字
+    - lua_processor@select_character          # 以词定字
     - lua_processor@*cold_word_drop.processor
     - lua_processor@*quick_symbol_text    #快符引导以及重复上屏
     - lua_processor@*userdb_sync_delete   #通过输入 /del 触发,用于清理自定义同步目录下txt用户词典里被标记c<0的词条
@@ -103,7 +100,6 @@ engine:
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码放在简繁转换之后
-    - lua_filter@*word_frequency_filter             #根据词频过滤掉生僻字
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
 
@@ -113,9 +109,6 @@ pro_comment_format:
   candidate_length: 1         # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理
   corrector_type: "{comment}"  # 换一种显示类型，比如"({comment})" 
   tone_display: "preedit"       #显示到输入码还是注释里  选项为preedit, comment
-
-# Lua 基于词频的字符集过滤，小于设定值将不会显示在候选中
-word_frequency_filter: 2     #过滤掉词典单字原始词频X以下的字
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
@@ -320,9 +313,6 @@ recognizer:
 # 从 default 继承快捷键
 key_binder:
   import_preset: default  # 从 default.yaml 继承通用的
-    # Lua 配置: 以词定字（上屏当前词句的第一个或最后一个字），和中括号翻页有冲突
-  select_first_character: "bracketleft"  # 左中括号 [
-  select_last_character: "bracketright"  # 右中括号 ]
   search: "`"             # 辅码引导符，要添加到 speller/alphabet
   bindings:             # 也可以再增加方案专有的
 #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
@@ -335,8 +325,6 @@ key_binder:
     - { when: has_menu, accept: "Control+a", toggle: pinyinhint }
 #通过快捷键使得输入码显示音调
     - { when: has_menu, accept: "Control+s", toggle: tone_display }
-#使用快捷键Control+g开启和关闭字符集过滤
-    - { when: has_menu, accept: "Control+g", toggle: "word_frequency" }
 # 使用 tab 在不同音节之间跳转
     - { when: has_menu, accept: "Tab", send: "Control+Right" }
     - { when: composing, accept: "Tab", send: "Control+Right" }

@@ -1,9 +1,6 @@
 # Rime schema
-# vim: set sw=2 sts=2 et:
 # encoding: utf-8
-#
-# 复制自 https://github.com/tumuyan/rime-melt，修改了拼写派生
-# 感谢 @[Mirtle](https://github.com/mirtlecn) 贡献的极其好用的拼写派生
+
 # 全拼和各个双拼有部分拼写规则不通用，需要修改
 ###############选择与之匹配的拼音方案#####################
 set_shuru_schema:
@@ -13,12 +10,11 @@ set_shuru_schema:
 
 schema:
   schema_id: melt_eng
-  name: Easy English Nano
+  name: 挂接：中英混输
   version: "2023-10-17"
   author:
     - Patrick <ipatrickmac@gmail.com>
-    - tumuyan <tumuyan@21cn.com>
-  description: Easy English Nano，只包含少量常用词汇，方便中英文混合输入度方案调用。
+  description: 只包含少量常用词汇，方便中英文混合输入度方案调用。
 
 switches:
   - name: ascii_mode
@@ -58,6 +54,9 @@ translator:
   spelling_hints: 9
 
 key_binder:
+  import_preset: default
+
+punctuator:
   import_preset: default
 
 recognizer:
