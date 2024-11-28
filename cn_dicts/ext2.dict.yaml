@@ -1462,7 +1462,7 @@ sort: by_weight
 也能	yě néng	4778
 国王	guó wáng	4778
 环保	huán bǎo	4777
-会有	huì huì	4777
+会有	huì yǒu	4777
 读书	dú shū	4776
 疾病	jí bìng	4776
 的确	dí què	4772
@@ -2045,7 +2045,7 @@ sort: by_weight
 姑娘	gū niáng	4448
 临时	lín shí	4447
 简直	jiǎn zhí	4446
-条例	tiao2 li4	4446
+条例	tiáo lì	4446
 打算	dǎ suàn	4445
 佛教	fó jiào	4445
 名义	míng yì	4444
@@ -2236,7 +2236,7 @@ sort: by_weight
 公主	gōng zhǔ	4361
 冲突	chōng tū	4361
 了吧	le ba	4359
-售价	shou4 jia4	4358
+售价	shòu jià	4358
 热爱	rè ài	4358
 我家	wǒ jiā	4358
 这场	zhè chǎng	4357
@@ -3272,6 +3272,7 @@ sort: by_weight
 而非	ér fēi	3987
 也不	yě bù	3987
 开会	kāi huì	3986
+开回	kāi huí	2465
 亮相	liàng xiàng	3986
 关联	guān lián	3986
 奶奶	nǎi nǎi	3986
@@ -3564,7 +3565,7 @@ sort: by_weight
 录音	lù yīn	3903
 说出	shuō chū	3903
 摆脱	bǎi tuō	3903
-万科	wàn kē	3902
+万科	wàn kē	1902
 密码	mì mǎ	3901
 字母	zì mǔ	3901
 越高	yuè gāo	3901
@@ -4234,7 +4235,7 @@ sort: by_weight
 首页	shǒu yè	3745
 忘记	wàng jì	3744
 一代	yí dài	3744
-不对	bú duì	3744
+不对	bú duì	5744
 特意	tè yì	3744
 填充	tián chōng	3744
 时光	shí guāng	3743
@@ -7430,7 +7431,7 @@ sort: by_weight
 底下	dǐ xià	3239
 滥用	làn yòng	3239
 尊敬	zūn jìng	3239
-你还	hái yǒu	3239
+你还	nǐ hái	3239
 与他	tā yǔ	3239
 驻华	zhù huá	3239
 打倒	dǎ dǎo	3238
@@ -8283,7 +8284,7 @@ sort: by_weight
 柔软	róu ruǎn	3141
 矿工	kuàng gōng	3141
 全美	quán měi	3141
-血压	xue3 ya1	3140
+血压	xuě yā	3140
 遍布	biàn bù	3140
 放宽	fàng kuān	3140
 后卫	hòu wèi	3140
@@ -8344,7 +8345,7 @@ sort: by_weight
 午夜	wǔ yè	3135
 风雨	fēng yǔ	3134
 曾任	zēng rèn	3134
-回合	hui2 he2	3134
+回合	huí hé	3134
 即时	jí shí	3134
 色调	sè diào	3134
 本金	běn jīn	3134
@@ -10793,7 +10794,7 @@ sort: by_weight
 跨国	kuà guó	2904
 清凉	qīng liáng	2904
 农行	nóng háng	2904
-条纹	tiao2 wen2	2903
+条纹	tiáo wén	2903
 这辆	zhè liàng	2903
 但凡	dàn fán	2903
 该书	gāi shū	2903
@@ -16528,7 +16529,7 @@ sort: by_weight
 入味	rù wèi	2542
 椰子	yē zi	2542
 海景	hǎi jǐng	2542
-会很	hui4 hui4	2542
+会很	huì hěng	2542
 惟一	wéi yī	2542
 还向	huán xiàng	2542
 泰坦	tài tǎn	2542
@@ -33999,7 +34000,6 @@ sort: by_weight
 亲率	qīn shuài	1944
 色狼	sè láng	1944
 舌苔	shé tāi	1944
-小德	xiǎo dé	1944
 镇痛	zhèn tòng	1944
 怕我	pà wǒ	1944
 任你	rèn nǐ	1944
@@ -42309,7 +42309,7 @@ sort: by_weight
 测报	cè bào	1765
 换证	huàn zhèng	1765
 久居	jiǔ jū	1765
-军嫂	jun1 sǎo	1765
+军嫂	jūn sǎo	1765
 痛处	tòng chù	1765
 雪莲	xuě lián	1765
 祖庙	zǔ miào	1765
@@ -50977,6 +50977,7 @@ sort: by_weight
 泡软	pào ruǎn	1614
 中社	zhōng shè	1614
 李琳	lǐ lín	1614
+别拆	bié chāi	1425
 寿春	shòu chūn	1614
 印鉴	yìn jiàn	1614
 我回	wǒ huí	1614
@@ -53074,7 +53075,7 @@ sort: by_weight
 亏得	kuī de	1581
 临别	lín bié	1581
 买价	mǎi jià	1581
-纽卡	niu3 ka3	1581
+纽卡	niū kǎ	1581
 棚改	péng gǎi	1581
 群像	qún xiàng	1581
 泰昌	tài chāng	1581
@@ -76787,7 +76788,7 @@ sort: by_weight
 发苦	fā kǔ	1285
 锋尚	fēng shàng	1285
 近闻	jìn wén	1285
-军控	jun1 kòng	1285
+军控	jūn kòng	1285
 裤腰	kù yāo	1285
 六厘	liù lí	1285
 六子	liù zi	1285
@@ -79727,7 +79728,7 @@ sort: by_weight
 气泵	qì bèng	1255
 三回	sān huí	1255
 收笔	shōu bǐ	1255
-塑化	su4 hua4	1255
+塑化	sù huà	1255
 太会	tài huì	1255
 踏平	tà píng	1255
 特以	tè yǐ	1255
@@ -91962,7 +91963,7 @@ sort: by_weight
 进风	jìn fēng	1138
 晋人	jìn rén	1138
 继嗣	jì sì	1138
-军姿	jun1 zī	1138
+军姿	jūn zī	1138
 克家	kè jiā	1138
 库迪	kù dí	1138
 苦守	kǔ shǒu	1138
@@ -97207,7 +97208,7 @@ sort: by_weight
 叉形	chā xíng	1091
 磁贴	cí tiē	1091
 醋味	cù wèi	1091
-刚还	gāng hái	1091
+刚还	gāng huán	1091
 归仁	guī rén	1091
 横尾	héng wěi	1091
 画马	huà mǎ	1091
@@ -100048,7 +100049,7 @@ sort: by_weight
 垫料	diàn liào	1066
 吊水	diào shuǐ	1066
 钓线	diào xiàn	1066
-度化	du4 hua4	1066
+度化	dù huà	1066
 发卷	fā juǎn	1066
 访查	fǎng chá	1066
 犯上	fàn shàng	1066
@@ -102542,7 +102543,7 @@ sort: by_weight
 袖带	xiù dài	1045
 银丰	yín fēng	1045
 用家	yòng jiā	1045
-约纳	yue4 na4	1045
+约纳	yuē nà	1045
 雨泽	yǔ zé	1045
 整款	zhěng kuǎn	1045
 真去	zhēn qù	1045
@@ -110366,7 +110367,6 @@ sort: by_weight
 任丘	rèn qiū	981
 荣归	róng guī	981
 盛诺	shèng nuò	981
-万可	wàn kě	981
 谢丹	xiè dān	981
 许超	xǔ chāo	981
 元直	yuán zhí	981
@@ -120758,7 +120758,7 @@ sort: by_weight
 妆饰	zhuāng shì	898
 白华	bái huá	898
 贝通	bèi tōng	898
-边个	bin1 go3	898
+边个	biān gè	898
 冯涛	féng tāo	898
 干倒	gān dǎo	898
 滑顺	huá shùn	898
@@ -134593,7 +134593,6 @@ sort: by_weight
 七粒	qī lì	785
 青帝	qīng dì	785
 勤益	qín yì	785
-人远	rén yuǎn	785
 散关	sàn guān	785
 色条	sè tiáo	785
 上横	shàng héng	785
@@ -136577,7 +136576,7 @@ sort: by_weight
 浴堂	yù táng	767
 暂获	zàn huò	767
 长歪	cháng wāi	767
-蒸散	zheng1 san4	767
+蒸散	zhēng sǎn	767
 正者	zhèng zhě	767
 重核	zhòng hé	767
 抓赌	zhuā dǔ	767
@@ -150674,7 +150673,6 @@ sort: by_weight
 数你	shù nǐ	622
 丝毯	sī tǎn	622
 塑模	sù mó	622
-完克	wán kè	622
 笑貌	xiào mào	622
 细发	xì fā	622
 新埠	xīn bù	622
