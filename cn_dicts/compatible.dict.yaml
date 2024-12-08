@@ -7,18 +7,19 @@ version: "2024-11-11"
 sort: by_weight
 ...
 白庙	bái miào	1
-不为	bù wéi	3230
-不为	bú wèi	2689
+不为	bù wéi	6598
+不为	bú wèi	6162
 黄贺	huáng hè	1
-年长	nián cháng	121
-年长	nián zhǎng	528
+年长	nián cháng	1808
+年长	nián zhǎng	3306
 十四	shí sì	1
 四十	sì shí	1
-五行	wǔ háng	1095
-五行	wǔ xíng	3095
-一行	yì háng	4083
-一行	yì xíng	621
-重天	zhòng tiān	316
+五行	wǔ háng	4388
+五行	wǔ xíng	6494
+一行	yì háng	7197
+一行	yì xíng	3524
+重天	zhòng tiān	2694
+往外传	wǎng wài chuán	90
 捉兔	zhuō tù	1
 白石塔	bái shí tǎ	1
 白石塔	bái shí tǎ	1
@@ -45,8 +46,8 @@ sort: by_weight
 花鸟叫	huā niǎo jiào	1
 黄凤凰	huáng fèng huáng	1
 接住豆	jiē zhù dòu	1
-九重天	jiǔ chóng tiān	1141
-两个八	liǎng gè bā	6814
+九重天	jiǔ chóng tiān	4458
+两个八	liǎng gè bā	8692
 两个白	liǎng gè bái	1
 两个百	liǎng gè bǎi	1
 两个貝	liǎng gè bèi	1
@@ -67,7 +68,7 @@ sort: by_weight
 两个巛	liǎng gè chuān	1
 两个串	liǎng gè chuàn	1
 两个朿	liǎng gè cì	1
-两个大	liǎng gè dà	8848
+两个大	liǎng gè dà	9563
 两个歹	liǎng gè dǎi	1
 两个呆	liǎng gè dāi	1
 两个東	liǎng gè dōng	1
@@ -200,7 +201,7 @@ sort: by_weight
 两个余	liǎng gè yú	1
 两个予	liǎng gè yǔ	1
 两个禺	liǎng gè yú	1
-两个月	liǎng gè yuè	9737
+两个月	liǎng gè yuè	9903
 两个曰	liǎng gè yuē	1
 两个真	liǎng gè zhēn	1
 两个止	liǎng gè zhǐ	1
@@ -251,11 +252,11 @@ sort: by_weight
 三个加	sān gè jiā	1
 三个介	sān gè jiè	1
 三个金	sān gè jīn	1
-三个九	sān gè jiǔ	5620
+三个九	sān gè jiǔ	8098
 三个可	sān gè kě	1
 三个客	sān gè kè	1
 三个空	sān gè kōng	1
-三个口	sān gè kǒu	6099
+三个口	sān gè kǒu	8345
 三个老	sān gè lǎo	1
 三个了	sān gè le	1
 三个雷	sān gè léi	1
@@ -291,7 +292,7 @@ sort: by_weight
 三个犬	sān gè quǎn	1
 三个全	sān gè quán	1
 三个𡿨	sān gè quǎn	1
-三个人	sān gè rén	9568
+三个人	sān gè rén	9840
 三个日	sān gè rì	1
 三个若	sān gè ruò	1
 三个山	sān gè shān	1
@@ -300,8 +301,8 @@ sort: by_weight
 三个舍	sān gè shě	1
 三个申	sān gè shēn	1
 三个生	sān gè shēng	1
-三个市	sān gè shì	5620
-三个十	sān gè shí	4439
+三个市	sān gè shì	8098
+三个十	sān gè shí	7423
 三个士	sān gè shì	1
 三个石	sān gè shí	1
 三个手	sān gè shǒu	1
@@ -339,7 +340,7 @@ sort: by_weight
 三个玉	sān gè yù	1
 三个原	sān gè yuán	1
 三个厡	sān gè yuán	1
-三个月	sān gè yuè	9794
+三个月	sān gè yuè	9924
 三个雲	sān gè yún	1
 三个爪	sān gè zhǎo	1
 三个止	sān gè zhǐ	1
@@ -382,7 +383,7 @@ sort: by_weight
 四个且	sì gè qiě	1
 四个囚	sì gè qiú	1
 四个泉	sì gè quán	1
-四个人	sì gè rén	9367
+四个人	sì gè rén	9764
 四个日	sì gè rì	1
 四个石	sì gè shí	1
 四个水	sì gè shuǐ	1
@@ -398,7 +399,7 @@ sort: by_weight
 四个乂	sì gè yì	1
 四个又	sì gè yòu	1
 四个魚	sì gè yú	1
-四个月	sì gè yuè	9298
+四个月	sì gè yuè	9738
 四个雲	sì gè yún	1
 四个竹	sì gè zhú	1
 四是四	sì shì sì	1
@@ -406,8 +407,8 @@ sort: by_weight
 提锡壶	tí xī hú	1
 听物理	tīng wù lǐ	1
 腿说嘴	tuǐ shuō zuǐ	1
-为一名	wèi yì míng	1907
-为一名	wéi yì míng	867
+为一名	wèi yì míng	5417
+为一名	wéi yì míng	4011
 星映灯	xīng yìng dēng	1
 杨家羊	yáng jiā yáng	1
 硬石头	yìng shí tóu	1

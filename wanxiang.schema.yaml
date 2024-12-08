@@ -439,7 +439,7 @@ algebra_pinyin:
     - xform/ń|ň|ǹ/en/ 
     - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_zrm: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -475,7 +475,7 @@ algebra_zrm:
     - xform/(.)ou$/$1Ⓑ/
     - xform/in$/Ⓝ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_flypy: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -511,7 +511,7 @@ algebra_flypy:
     - xform/ui$/Ⓥ/
     - xform/in$/Ⓑ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_sogou: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -548,7 +548,7 @@ algebra_sogou:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_mspy: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -586,7 +586,7 @@ algebra_mspy:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_abc: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -619,7 +619,7 @@ algebra_abc:
     - xform/un$/Ⓝ/
     - xform/[uv]e$|ui$/Ⓜ/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 algebra_ziguang: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
@@ -653,7 +653,7 @@ algebra_ziguang:
     - xform/ao$/Ⓠ/ # ao should be placed after iao
     - xform/an$/Ⓡ/ # an should be placed after uan/ian
     - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
-    - abbrev/^([a-z]).+$/$1/
+ #   - abbrev/^([a-z]).+$/$1/   #简拼
 
 algebra_lx17:   #乱序17
   __append:
