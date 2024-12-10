@@ -763,7 +763,6 @@ octagram:
   __patch:
     grammar:
       language: amz-v3n2m1-zh-hans
-      language: zh-hans
       collocation_max_length: 4
       collocation_min_length: 2
     translator/contextual_suggestions: true
