@@ -3,9 +3,9 @@
 # 方案说明
 ########################万象拼音无辅助码版本，支持同文8、14、18键 ###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
-set_gongjian_mohu:    #可选的值有：18jian, 14jian, 9jian, 26键  PC请选26键
-  __include: 26jian
+  __include: 自然码  #可选解码规则有   全拼, 自然码, 自然龙, 小鹤,  紫光, 搜狗, 微软, ABC  选择一个填入
+set_gongjian_mohu:    #可选的值有：18键, 14键, 9键, 26键  ，PC请选26键
+  __include: 26键
 pro_comment_format:           # 超级注释模块
   candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
   corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
@@ -433,14 +433,14 @@ punctuator:
 
 
 
-algebra_pinyin: 
+全拼: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
     - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
     - xform/ńg|ňg|ǹg/en/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_zrm: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+自然码: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -475,8 +475,230 @@ algebra_zrm:
     - xform/(.)ou$/$1Ⓑ/
     - xform/in$/Ⓝ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_flypy: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+
+自然龙: 
+  __append:
+    - xform/ń/én/ 
+    - xform/ň/ěn/ 
+    - xform/ǹ/ěn/ 
+    - xform/\bn\b/en/   #解决𧗈字拼音n通过双拼en打出来
+    - xform/ńg/én/
+    - xform/ňg/ěn/
+    - xform/ṅg/èn/
+    - xform/^([a-zA-Z]+)$/$1①/
+    - xform/^(.*)ā(.*)$/$1a$2①/
+    - xform/^(.*)á(.*)$/$1a$2②/
+    - xform/^(.*)ǎ(.*)$/$1a$2③/
+    - xform/^(.*)à(.*)$/$1a$2④/
+    - xform/^(.*)ō(.*)$/$1o$2①/
+    - xform/^(.*)ó(.*)$/$1o$2②/
+    - xform/^(.*)ǒ(.*)$/$1o$2③/
+    - xform/^(.*)ò(.*)$/$1o$2④/
+    - xform/^(.*)ē(.*)$/$1e$2①/
+    - xform/^(.*)é(.*)$/$1e$2②/
+    - xform/^(.*)ě(.*)$/$1e$2③/
+    - xform/^(.*)è(.*)$/$1e$2④/
+    - xform/^(.*)ī(.*)$/$1i$2①/
+    - xform/^(.*)í(.*)$/$1i$2②/
+    - xform/^(.*)ǐ(.*)$/$1i$2③/
+    - xform/^(.*)ì(.*)$/$1i$2④/
+    - xform/^(.*)ū(.*)$/$1u$2①/
+    - xform/^(.*)ú(.*)$/$1u$2②/
+    - xform/^(.*)ǔ(.*)$/$1u$2③/
+    - xform/^(.*)ù(.*)$/$1u$2④/
+    - xform/^(.*)ǖ(.*)$/$1v$2①/
+    - xform/^(.*)ǘ(.*)$/$1v$2②/
+    - xform/^(.*)ǚ(.*)$/$1v$2③/
+    - xform/^(.*)ǜ(.*)$/$1v$2④/
+    - xform/^(.*)ü(.*)$/$1v$2①/
+    - xlit/①②③④/1234
+
+    - xform/^([jqxy])u(\d)$/$1v$2/
+    - xform/^([aoe])([ioun]\d)$/$1$1$2/
+    - xform/^([aoe])(ng\d)$/$1$1$2/
+    - xform/^([aoe])(\d)$/$1$1$2/
+    - xform/^(ng\d)$/ee$1/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/iao4$/L/
+    - xform/iao3$/L/
+    - xform/iao2$/U/
+    - xform/iao5$/M/
+    - xform/iao1$/M/
+    - xform/ian1$/R/
+    - xform/ian2$/V/
+    - xform/ian3$/P/
+    - xform/ian4$/A/
+    - xform/ian5$/R/
+    - xform/uan4$/C/
+    - xform/uan3$/S/
+    - xform/uan2$/O/
+    - xform/uan1$/D/
+    - xform/uan5$/D/
+    - xform/iang4$/E/
+    - xform/iang3$/U/
+    - xform/iang2$/I/
+    - xform/iang1$/Y/
+    - xform/iang5$/Y/
+    - xform/iong4$/H/
+    - xform/iong3$/E/
+    - xform/iong2$/K/
+    - xform/iong1$/P/
+    - xform/iong5$/P/
+    - xform/uang5$/W/
+    - xform/uang1$/W/
+    - xform/uang2$/B/
+    - xform/uang3$/U/
+    - xform/uang4$/E/
+    - xform/(.)eng1$/$1C/
+    - xform/(.)eng2$/$1F/
+    - xform/(.)eng3$/$1Y/
+    - xform/(.)eng4$/$1F/
+    - xform/(.)eng5$/$1C/
+    - xform/uai4$/F/
+    - xform/uai3$/P/
+    - xform/uai2$/S/
+    - xform/uai1$/G/
+    - xform/uai5$/G/
+    - xform/ua4$/G/
+    - xform/ua3$/G/
+    - xform/ua2$/T/
+    - xform/ua1$/S/
+    - xform/ua5$/S/
+    - xform/(.)ai4$/$1O/
+    - xform/(.)ou3$/$1Z/
+    - xform/(.)en2$/$1S/
+    - xform/(.)ang4$/$1D/
+    - xform/(.)ong1$/$1K/
+    - xform/(.)ong5$/$1K/
+    - xform/(.)ei4$/$1K/
+    - xform/(.)ai2$/$1D/
+    - xform/(.)ao4$/$1V/
+    - xform/(.)ao3$/$1X/
+    - xform/(.)ao2$/$1I/
+    - xform/(.)ao1$/$1Q/
+    - xform/(.)en1$/$1E/
+    - xform/(.)en5$/$1E/
+    - xform/en1$/E/
+    - xform/en5$/E/
+    - xform/ia4$/X/
+    - xform/uo4$/P/
+    - xform/uo1$/S/
+    - xform/uo5$/S/
+    - xform/(.)ong4$/$1Y/
+    - xform/ia1$/D/
+    - xform/ia2$/C/
+    - xform/ia3$/N/
+    - xform/ia4$/X/
+    - xform/ia5$/D/
+    - xform/(.)ang1$/$1U/
+    - xform/(.)ang5$/$1U/
+    - xform/(.)ou4$/$1R/
+    - xform/(.)ai1$/$1B/
+    - xform/(.)ai5$/$1B/
+    - xform/in1$/H/
+    - xform/in2$/C/
+    - xform/in3$/X/
+    - xform/in4$/V/
+    - xform/in5$/H/
+    - xform/uo3$/L/
+    - xform/(.)ong2$/$1J/
+    - xform/ing1$/E/
+    - xform/ing2$/N/
+    - xform/ing3$/W/
+    - xform/ing4$/W/
+    - xform/ing5$/E/
+    - xform/(.)ou1$/$1X/
+    - xform/(.)ou5$/$1X/
+    - xform/(.)an2$/$1P/
+    - xform/(.)en3$/$1O/
+    - xform/en3$/O/
+    - xform/(.)en4$/$1O/
+    - xform/en4$/O/
+    - xform/(.)ao5$/$1Q/
+    - xform/(.)ang3$/$1P/
+    - xform/(.)an1$/$1N/
+    - xform/(.)an5$/$1N/
+    - xform/uo2$/L/
+    - xform/(.)an4$/$1A/
+    - xform/(.)ei2$/$1R/
+    - xform/(.)ong3$/$1N/
+    - xform/(.)ou2$/$1A/
+    - xform/ui1$/T/
+    - xform/ui2$/W/
+    - xform/ui3$/V/
+    - xform/ui4$/F/
+    - xform/ui5$/T/
+    - xform/(.)ei3$/$1J/
+    - xform/ue1$/U/
+    - xform/ue2$/I/
+    - xform/ue3$/O/
+    - xform/ue4$/D/
+    - xform/ue5$/U/
+    - xform/ve1$/U/
+    - xform/ve2$/I/
+    - xform/ve3$/O/
+    - xform/ve4$/D/
+    - xform/ve5$/U/
+    - xform/(.)ang2$/$1W/
+    - xform/ie1$/K/
+    - xform/ie2$/S/
+    - xform/ie3$/C/
+    - xform/ie4$/Q/
+    - xform/ie5$/K/
+    - xform/(.)ei1$/$1I/
+    - xform/(.)ei5$/$1I/
+    - xform/(.)ai3$/$1U/
+    - xform/v1$/H/
+    - xform/v2$/M/
+    - xform/v3$/S/
+    - xform/v4$/F/
+    - xform/(.)an3$/$1O/
+    - xform/un1$/G/
+    - xform/un2$/F/
+    - xform/un3$/O/
+    - xform/un4$/R/
+    - xform/un5$/G/
+    - xform/er1$/eQ/
+    - xform/er2$/eK/
+    - xform/er3$/eU/
+    - xform/er4$/eH/
+    - xform/er5$/eQ/
+    - xform/iu5$/Z/
+    - xform/iu4$/O/
+    - xform/iu3$/Z/
+    - xform/iu2$/M/
+    - xform/iu1$/Z/
+    - xform/(.)a1$/$1L/
+    - xform/(.)a2$/$1U/
+    - xform/(.)a3$/$1M/
+    - xform/(.)a4$/$1I/
+    - xform/(.)a5$/$1L/
+    - xform/(.)e1$/$1R/
+    - xform/(.)e2$/$1E/
+    - xform/(.)e3$/$1L/
+    - xform/(.)e4$/$1I/
+    - xform/(.)e5$/$1R/
+    - xform/(.)o1$/$1P/
+    - xform/(.)o2$/$1E/
+    - xform/(.)o3$/$1I/
+    - xform/(.)o4$/$1G/
+    - xform/(.)o5$/$1P/
+    - xform/i5$/J/
+    - xform/i4$/T/
+    - xform/i3$/G/
+    - xform/i2$/B/
+    - xform/i1$/J/
+    - xform/u5$/A/
+    - xform/u4$/H/
+    - xform/u3$/M/
+    - xform/u2$/L/
+    - xform/u1$/A/
+    - xlit/QWERTYUIOPASDFGHMJCKLZXVBN/qwertyuiopasdfghmjcklzxvbn/
+
+小鹤: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -511,8 +733,8 @@ algebra_flypy:
     - xform/ui$/Ⓥ/
     - xform/in$/Ⓑ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_sogou: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+搜狗: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -548,8 +770,8 @@ algebra_sogou:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_mspy: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+微软: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -586,8 +808,8 @@ algebra_mspy:
     - xform/in$/Ⓝ/
     - xform/ing$/;/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_abc: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+ABC: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -619,8 +841,8 @@ algebra_abc:
     - xform/un$/Ⓝ/
     - xform/[uv]e$|ui$/Ⓜ/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
-algebra_ziguang: 
+   # - abbrev/^([a-z]).+$/$1/   #简拼
+紫光: 
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -653,9 +875,9 @@ algebra_ziguang:
     - xform/ao$/Ⓠ/ # ao should be placed after iao
     - xform/an$/Ⓡ/ # an should be placed after uan/ian
     - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
- #   - abbrev/^([a-z]).+$/$1/   #简拼
+   # - abbrev/^([a-z]).+$/$1/   #简拼
 
-algebra_lx17:   #乱序17
+乱序17:  
   __append:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/ń|ň|ǹ/en/ 
@@ -708,7 +930,7 @@ algebra_lx17:   #乱序17
     - xform/v$/Ⓧ/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
 #以下配合同文输入法等使用，将共键字母后者转换为前者
-9jian:
+9键:
   __append:
     - xform/b/a/
     - xform/c/a/
@@ -729,7 +951,7 @@ algebra_lx17:   #乱序17
     - xform/y/w/
     - xform/z/w/
 
-14jian:
+14键:
   __append:
     - xform/w/q/
     - xform/r/e/
@@ -744,7 +966,7 @@ algebra_lx17:   #乱序17
     - xform/v/c/
     - xform/n/b/
 
-18jian:          
+18键:          
   __append:
     - xform/e/w/
     - xform/t/r/
@@ -754,16 +976,16 @@ algebra_lx17:   #乱序17
     - xform/k/j/
     - xform/c/x/
     - xform/n/b/
-26jian:          
+26键:          
   __append: []
 
-__include: octagram   #启用语言模型
-#语言模型
-octagram:
+__include: 语言模型
+语言模型:
   __patch:
     grammar:
       language: amz-v3n2m1-zh-hans
-      collocation_max_length: 4
+#      language: zh-hans
+      collocation_max_length: 3
       collocation_min_length: 2
     translator/contextual_suggestions: true
     translator/max_homophones: 7
