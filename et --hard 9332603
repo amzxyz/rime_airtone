@@ -1,0 +1,82 @@
+[33m081a526[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m 全新模型3.0正式发布
+[33m1f1e126[m 全新模型3.0正式发布
+[33m9d8841b[m 全新模型3.0正式发布
+[33m9332603[m[33m ([m[1;31morigin/main[m[33m)[m 修正调字读音
+[33md847969[m 全新词频
+[33me50d82b[m 修正传字读音
+[33ma85f85e[m 修正传字读音
+[33mc040bea[m 更新新版词库BETA版本，以及语法模型3.0
+[33m54214ce[m 更新新版词库BETA版本，以及语法模型3.0
+[33m3854e2f[m 进一步精简多字词
+[33m014bd98[m 进一步精简多字词
+[33m6f39ba2[m 今夜修正多音字“长”
+[33m939e28e[m 大批量缩减词库
+[33m2ea4025[m 修正大量多音词汇
+[33mc4540e1[m 继续更新词库
+[33mbc91d3c[m 更新词频
+[33m168eeca[m Update others.dict.yaml
+[33m0c3ee37[m 字符集过滤lua
+[33md6b34e1[m 更新字符集过滤lua
+[33m5a9667a[m 更新字符集过滤lua
+[33m635aedc[m 更新一\不字的变调
+[33m7d9fe58[m 更新大批量读音
+[33mcdca76c[m Update README.md
+[33md05871c[m Update README.md
+[33m00f8891[m 更新 README.md
+[33mbdb5568[m 全面更新词频
+[33mf10c7a1[m 采用新的拼写运算
+[33m92ba3d0[m Update README.md
+[33m3fefdfd[m 全新词库
+[33mf008409[m 更新说明
+[33m37d1f89[m[33m ([m[1;33mtag: [m[1;33mv2.0[m[33m)[m Update radical_pinyin.schema.yaml
+[33m4383df3[m Update melt_eng.schema.yaml
+[33mdee011a[m Update README.md
+[33mf1820a6[m Update README.md
+[33m0796280[m Update README.md
+[33mf269653[m 韫读音变更#2
+[33m7a63a1b[m Update wanxiang.schema.yaml
+[33m6d54e8b[m Update wanxiang.schema.yaml
+[33m2dd7f99[m Update wanxiang.schema.yaml
+[33m81d5e7f[m Update README.md
+[33ma76a171[m Update default.yaml
+[33m7a66c06[m Rename tongwen.schema.yaml to wanxiang.schema.yaml
+[33m4988973[m Delete wanxiang.schema.yaml
+[33m16246c7[m Update tongwen.schema.yaml
+[33m30250d2[m Update tongwen.schema.yaml
+[33m4781f73[m Update README.md
+[33m881ab65[m Update README.md
+[33md79bbba[m Update README.md
+[33m50e34c3[m 更新语言大模型2.0
+[33mcaa14f9[m 更新语言大模型2.0
+[33m524438a[m Delete zh-hans-t-essay-bgw.gram
+[33m465404f[m Update README.md
+[33m9923ca5[m Update README.md
+[33m3648900[m Update README.md
+[33m13073df[m Delete cn_dicts/41448.dict.yaml
+[33m4ecd45d[m Update README.md
+[33m6cbf491[m Update README.md
+[33mcef2899[m 修正词库“咆哮”错调
+[33m0f92692[m Delete 根据自定义修正数据结合原有数据将词典转换为带音调的词典.py
+[33m600c2c8[m Delete cn_dicts/41448.dict.yaml
+[33mf232863[m[33m ([m[1;33mtag: [m[1;33m1.5[m[33m)[m Merge remote-tracking branch 'refs/remotes/origin/main'
+[33mbf1bd97[m 更新词库
+[33m26f52e1[m 更新 README.md
+[33m40fbe2c[m 更新 README.md
+[33mb802dfc[m 更新 README.md
+[33mc85d362[m Merge remote-tracking branch 'refs/remotes/origin/main' s
+[33mff4f4ae[m 新增用户词辅助删除lua脚本
+[33m719a954[m Update README.md
+[33m40ce07a[m Update README.md
+[33mb388d15[m Update README.md
+[33m3f4bd83[m Update README.md
+[33m9e44ad8[m Update README.md
+[33m30416c5[m Update README.md
+[33mf944239[m Update README.md
+[33m5e6fde3[m Update README.md
+[33m671e946[m 
+[33m8ef8dde[m 
+[33m0e0baa0[m 
+[33m76f4b78[m Update README.md
+[33m9360f01[m[33m ([m[1;33mtag: [m[1;33m1.4[m[33m)[m 修复快符lua扩展全角符号重复上屏问题，''重复符号，;;重复候选上屏
+[33m249f473[m Update README.md
+[33m5ca36f8[m first commit
