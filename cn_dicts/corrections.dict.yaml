@@ -12,7 +12,6 @@ columns:
 - weight
 - comment
 ...
-### 错音
 馄饨	hún tun	898
 馄饨	hun dun	898	hún tun
 主角	zhǔ jué	24115
@@ -165,7 +164,6 @@ columns:
 饮鸩止渴	yin jiu zhi ke	336	饮鸩(zhèn)止渴
 饮鸩解渴	yin zhen jie ke	0	饮鸩(zhèn)解渴
 饮鸩解渴	yin jiu jie ke	0	饮鸩(zhèn)解渴
-### 错字
 曾经	céng jīng	39759
 曾今	céng jīn	105	曾经
 按捺	àn nà	127
@@ -191,3 +189,5 @@ columns:
 万柏林	wàn bó lín	2	万柏(bǎi)林
 热烈	rè liè	0
 热列	rè liè	0	(热烈)
+似的	shì de	2103
+似的	si de	2103		似(shì)的
