@@ -1,16 +1,46 @@
 # Rime dictionary
 # encoding: utf-8
 #https://github.com/amzxyz/RIME-LMDG
+#兼容词库，对于多字词汇两种读音的场景，手动维护到本表以及一些其他的杂项
 ---
 name: compatible
 version: "2024-11-11"
 sort: by_weight
 ...
+不长	bù cháng	1081
+不长	bù zhǎng	708
+掠夺	lüè duó	11
+掠夺	lüě duó	11
+略长	lüè zhǎng	98
+略长	lüè cháng	123
+略长一些	lüè cháng yì xiē	72
+略长几岁	lüè zhǎng jǐ suì	52
+见长	jiàn zhǎng	794
+见长	jiàn cháng	320
+所长	suǒ cháng	669
+所长	suǒ zhǎng	258
+便宜	biàn yí	255
+便宜	pián yi	3240
+便不便宜	biàn bú biàn yí	1034
+便宜行事	biàn yí xíng shì	485
+便宜之内	biàn yí zhī nèi	124
+越长	yuè cháng	445
+越长	yuè zhǎng	817
+越长大	yuè zhǎng dà	666
+越长越快	yuè zhǎng yuè kuài	262
+越长越好	yuè cháng yuè hǎo	322 
+越长越	yuè cháng yuè	635
+越长越	yuè zhǎng yuè	425
+行长	háng zhǎng	2117
+年长	nián zhǎng	367
+年长	nián cháng	268
+长牙	zhǎng yá	493
+长牙	cháng yá	101
+长相	zhǎng xiàng	1576
 白庙	bái miào	1
-不为	bù wèi	6598
-不为	bù wèi	6162
-黄贺	huáng hè	1
-年长	nián zhǎng	1808
+不为	bú wèi	6598
+不为	bù wéi	6162
+年长	nián cháng	1808
 年长	nián zhǎng	3306
 十四	shí sì	1
 四十	sì shí	1
@@ -22,9 +52,7 @@ sort: by_weight
 往外传	wǎng wài zhuàn	90
 捉兔	zhuō tù	1
 白石塔	bái shí tǎ	1
-白石塔	bái shí tǎ	1
 板凳宽	bǎn dèng kuān	1
-扁担长	biǎn dàn zhǎng	1
 扁担长	biǎn dàn zhǎng	1
 剥桔子	bō jú zi	1
 常练习	cháng liàn xí	1

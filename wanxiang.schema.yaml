@@ -984,8 +984,7 @@ __include: 语言模型
   __patch:
     grammar:
       language: amz-v3n2m1-zh-hans
-#      language: zh-hans
-      collocation_max_length: 3
+      collocation_max_length: 4
       collocation_min_length: 2
     translator/contextual_suggestions: true
     translator/max_homophones: 7
